@@ -29,6 +29,7 @@
 [WebPack For Visual Studio Developers](https://www.telerik.com/blogs/webpack-for-visual-studio-developers)  
 ## HealthCheck 
 [Integritätsprüfungen in ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-7.0)  
+[Systemüberwachung microservices](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)  
 [Health Checks in ASP.NET Core](https://code-maze.com/health-checks-aspnetcore/)  
 [Healthchecks in ASP.NET Core – Detailed Guide](https://codewithmukesh.com/blog/healthchecks-in-aspnet-core-explained/)  
 [Health Checks in ASP.NET Core](https://code-maze.com/health-checks-aspnetcore/)  
