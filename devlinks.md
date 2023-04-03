@@ -4,16 +4,40 @@
 [Clean Code Developer](https://clean-code-developer.de/)  
 [Awesome Clean Code Resources](https://github.com/abiodunjames/Awesome-Clean-Code-Resources)  
 # Tutorials: Architektur, Technologie
+## CleanArchitektur
+[The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
+[Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
+[Clean Architecture by Steve Smith (ardalis)](https://github.com/ardalis/cleanarchitecture)  
+[CleanArchitecture: Minimum, Middle, Maximum, Ultra](https://github.com/denis-tsv/CleanArchitecture)  
+[Clean Architecture for ASP.NET Core Solution: A Case Study](https://blog.ndepend.com/clean-architecture-for-asp-net-core-solution/)  
+[Web Application Architecture: The Latest Guide](https://dzone.com/articles/web-application-architecture-the-latest-guide)  
+[Clean Architecture with .NET Core: Getting Started](https://jasontaylor.dev/clean-architecture-getting-started/)  
+## Modular Architecture
+[Modular Architecture in ASP.NET Core – Building Better Monoliths](https://codewithmukesh.com/blog/modular-architecture-in-aspnet-core/)  
+[Modular Monoliths With ASP.NET Core – Pragmatic Architecture](https://www.thinktecture.com/asp-net-core/modular-monolith/)  
+[My experience of using the Clean Architecture with a Modular Monolith](https://www.thereformedprogrammer.net/my-experience-of-using-the-clean-code-architecture-with-a-modular-monolith/)  
+[Evolving modular monoliths: 2. Breaking up your app into multiple solutions](https://www.thereformedprogrammer.net/evolving-modular-monoliths-2-breaking-up-your-app-into-multiple-solutions/)  
+[Evolving modular monoliths: 3. Passing data between bounded contexts](https://www.thereformedprogrammer.net/evolving-modular-monoliths-3-passing-data-between-bounded-contexts/)  
+[How to Organize Clean Architecture to Modular Patterns in 10 Minutes](https://www.codeproject.com/Articles/1210984/How-to-Organize-Clean-Architecture-to-Modular-Patt)  
+## Containern, Docker
+[Tutorial: Containerisieren einer .NET Core-App](https://learn.microsoft.com/de-de/dotnet/core/docker/build-container?tabs=windows)  
+[Docker-Images für ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-7.0)  
+[.NET-Microservices: .NET-Microservices-Architektur für .NET-Containeranwendungen](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/)  
+[Hosten von ASP.NET Core in Docker-Containern](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/docker/?view=aspnetcore-7.0)  
+[.NET Microservices Sample Reference Application](https://github.com/dotnet-architecture/eShopOnContainers)  
+[Multi-container Full Stack application with ASP.NET Core (.NET 6) Web API following Clean Architecture, and Angular. ](https://github.com/referbruv/ContainerNinja.CleanArchitecture)  
+[Docker Series](https://code-maze.com/docker-series/)  
+## WSL
+### Ubuntu WSL
+[Getting started with cross-platform development using .NET on Ubuntu on WSL](https://ubuntu.com/blog/creating-cross-platform-applications-with-net-on-ubuntu-on-wsl)  
+[Installieren von .NET unter Linux mithilfe eines Installationsskripts oder durch Extrahieren von Binärdateien](https://learn.microsoft.com/de-de/dotnet/core/install/linux-scripted-manual#scripted-install)  
+[Hosting Multiple ASP.NET Core Apps in Ubuntu Linux Server Using Apache](https://www.syncfusion.com/blogs/post/hosting-multiple-asp-net-core-apps-in-ubuntu-linux-server-using-apache.aspx)  
+[Hosten von ASP.NET Core unter Linux mit Nginx](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-7.0&tabs=linux-ubuntu)  
+[Hosten von ASP.NET Core unter Linux mit Apache](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-7.0)  
 [Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
 [Onion Architecture in ASP.NET Core](https://code-maze.com/onion-architecture-in-aspnetcore/)  
 [Vertical Slice Architecture in ASP.NET Core](https://code-maze.com/vertical-slice-architecture-aspnet-core/)  
 [Architekturprinzipien](https://learn.microsoft.com/de-de/dotnet/architecture/modern-web-apps-azure/architectural-principles)  
-# Container, Docker
-[Tutorial: Containerisieren einer .NET Core-App](https://learn.microsoft.com/de-de/dotnet/core/docker/build-container?tabs=windows)  
-[Docker-Images für ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-7.0)  
-[.NET-Microservices: .NET-Microservices-Architektur für .NET-Containeranwendungen](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/)  
-[Hosten von ASP.NET Core in Docker-Containern](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/docker/?view=aspnetcore-7.0)   
-[.NET Microservices Sample Reference Application](https://github.com/dotnet-architecture/eShopOnContainers)  
 # Projekt
 ## MVC und Razor Pages
 [Add Razor Pages support to a .Net Core MVC Project](https://dev.to/ivanrainbolt/add-razor-pages-support-to-a-net-core-mvc-project-1j54)  
@@ -43,6 +67,15 @@
 [Testing ASP.NET Core Applications](https://code-maze.com/asp-net-core-testing/)  
 [Entity Framework Core Series](https://code-maze.com/entity-framework-core-series/)  
 [Blazor WebAssembly Series](https://code-maze.com/blazor-webassembly-series/)  
+## MariaDb
+[Dokumentation MariaDb](https://mariadb.com/kb/en/sql-statements-structure/)  
+[Dokumentation Tech on the Net](https://www.techonthenet.com/mariadb/index.php)  
+### DB User
+```
+CREATE DATABASE '<db>';
+CREATE USER '<dbuser>'@% IDENTIFIED BY '<pwd>'; GRANT USAGE ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; 
+GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '<dbuser>';
+```
 # Komponenten
 [bpmn-js: BPMN 2.0 rendering toolkit and web modeler | Toolkits | bpmn.io](https://bpmn.io/toolkit/bpmn-js/)  
 [Quartz.NET](https://www.quartz-scheduler.net/)  
