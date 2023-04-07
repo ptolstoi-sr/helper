@@ -39,6 +39,9 @@
 [Vertical Slice Architecture in ASP.NET Core](https://code-maze.com/vertical-slice-architecture-aspnet-core/)  
 [Architekturprinzipien](https://learn.microsoft.com/de-de/dotnet/architecture/modern-web-apps-azure/architectural-principles)  
 # Projekt
+## Solution Template
+[Business Apps Made Simple with Asp.Net Core MVC / TypeScript](https://github.com/serenity-is/Serenity)  
+[Open Source Web Application Framework for ASP.NET Core](https://github.com/abpframework/abp)  
 ## MVC und Razor Pages
 [Add Razor Pages support to a .Net Core MVC Project](https://dev.to/ivanrainbolt/add-razor-pages-support-to-a-net-core-mvc-project-1j54)  
 ## WebApi
@@ -48,9 +51,13 @@
 [A Deep Dive into Html.RenderComponentAsync with ASP.NET Core MVC — How to add Blazor Server or Blazor WebAssembly To An Existing MVC Application](https://www.intertech.com/a-deep-dive-into-html-rendercomponentasync-with-asp-net-core-mvc-how-to-add-blazor-server-or-blazor-webassembly-to-an-existing-mvc-application/)  
 [How to Integrate Blazor WebAssembly into an Existing ASP.NET Core Web Application](https://www.telerik.com/blogs/integrate-blazor-webassembly-existing-aspnet-core-web-application)  
 [Adding ServerSide Blazor To Existing ASP.Net Core Project](https://www.c-sharpcorner.com/article/add-blazor-to-existing-asp-net-core-project/)  
-## Vuejs, npm, Webpack 
+## Vuejs, npm, Webpack, Gulp, Grunt, Typescript
 [Integrating Vue.js V4 In ASP.NET Core 3.1 MVC And File Uploading Using Dropzone](https://www.c-sharpcorner.com/article/integrating-vue-js-v4-in-asp-net-core-3-1-mvc-uploading-a-file-using-dropzone/)  
 [WebPack For Visual Studio Developers](https://www.telerik.com/blogs/webpack-for-visual-studio-developers)  
+[Webpack MSBuild Plugin](https://github.com/shannonhochkins/webpack-msbuild-plugin)  
+[Easily Improve Front-end ASP.NET Core App Development with Gulp](https://www.syncfusion.com/blogs/post/easily-improve-front-end-asp-net-core-app-development-with-gulp.aspx)  
+[Verwenden von Grunt in ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/client-side/using-grunt?view=aspnetcore-7.0)  
+[ASP.NET Core MVC WebPack Typescript Template](https://github.com/maxtpham/aspnet-core-typescript)  
 ## HealthCheck 
 [Integritätsprüfungen in ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-7.0)  
 [Systemüberwachung microservices](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)  
