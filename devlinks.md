@@ -80,6 +80,12 @@
 [Testing ASP.NET Core Applications](https://code-maze.com/asp-net-core-testing/)  
 [Entity Framework Core Series](https://code-maze.com/entity-framework-core-series/)  
 [Blazor WebAssembly Series](https://code-maze.com/blazor-webassembly-series/)  
+## Testing
+[Komponententests für C# in .NET Core mit „dotnet test“ und xUnit](https://learn.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test)  
+[Organisieren und Testen von Projekten mit der .NET-CLI](https://learn.microsoft.com/de-de/dotnet/core/tutorials/testing-with-cli)  
+[Testen von EF Core-Anwendungen](https://learn.microsoft.com/de-de/ef/core/testing/)  
+[Testing Controller Logic](https://jakeydocs.readthedocs.io/en/latest/mvc/controllers/testing.html)  
+[Integration Testing](https://jakeydocs.readthedocs.io/en/latest/testing/integration-testing.html)  
 ## MariaDb
 [Dokumentation MariaDb](https://mariadb.com/kb/en/sql-statements-structure/)  
 [Dokumentation Tech on the Net](https://www.techonthenet.com/mariadb/index.php)  
