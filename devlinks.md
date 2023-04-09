@@ -77,15 +77,21 @@
 ## Patterns
 [Implementieren der Infrastrukturpersistenzebene mit Entity Framework Core](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-implementation-entity-framework-core)  
 [ASP.NET Core Series](https://code-maze.com/net-core-series/)  
-[Testing ASP.NET Core Applications](https://code-maze.com/asp-net-core-testing/)  
-[Entity Framework Core Series](https://code-maze.com/entity-framework-core-series/)  
 [Blazor WebAssembly Series](https://code-maze.com/blazor-webassembly-series/)  
+### Entity Framework Core
+[Entity Framework Core Series](https://code-maze.com/entity-framework-core-series/)  
+#### Repository Patterns
+[ASP.NET Core Web API – Repository Pattern](https://code-maze.com/net-core-web-development-part4/)  
+[Repository Pattern in ASP.NET Core – Ultimate Guide](https://codewithmukesh.com/blog/repository-pattern-in-aspnet-core/)  
+[Getting Started with Generics in .NET](https://www.telerik.com/blogs/getting-started-generics-dotnet)  
+[Entity Framework Core Generic Repository](https://codingblast.com/entity-framework-core-generic-repository/)  
 ## Testing
 [Komponententests für C# in .NET Core mit „dotnet test“ und xUnit](https://learn.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test)  
 [Organisieren und Testen von Projekten mit der .NET-CLI](https://learn.microsoft.com/de-de/dotnet/core/tutorials/testing-with-cli)  
 [Testen von EF Core-Anwendungen](https://learn.microsoft.com/de-de/ef/core/testing/)  
 [Testing Controller Logic](https://jakeydocs.readthedocs.io/en/latest/mvc/controllers/testing.html)  
 [Integration Testing](https://jakeydocs.readthedocs.io/en/latest/testing/integration-testing.html)  
+[Testing ASP.NET Core Applications](https://code-maze.com/asp-net-core-testing/)  
 ## MariaDb
 [Dokumentation MariaDb](https://mariadb.com/kb/en/sql-statements-structure/)  
 [Dokumentation Tech on the Net](https://www.techonthenet.com/mariadb/index.php)  
