@@ -101,6 +101,9 @@ CREATE DATABASE '<db>';
 CREATE USER '<dbuser>'@% IDENTIFIED BY '<pwd>'; GRANT USAGE ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; 
 GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '<dbuser>';
 ```
+## Authentifizierung
+[Windows-Authentifizierung mithilfe von Negotiate und Kerberos](https://learn.microsoft.com/de-de/aspnet/core/security/authentication/windowsauth?view=aspnetcore-7.0&tabs=visual-studio&viewFallbackFrom=aspnetcore-3.0#kestrel)  
+[LDAP authentication in ASP.NET Core MVC](https://decovar.dev/blog/2022/06/16/dotnet-ldap-authentication/)  
 # Komponenten
 [bpmn-js: BPMN 2.0 rendering toolkit and web modeler | Toolkits | bpmn.io](https://bpmn.io/toolkit/bpmn-js/)  
 [Quartz.NET](https://www.quartz-scheduler.net/)  
