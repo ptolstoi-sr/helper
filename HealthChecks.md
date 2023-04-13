@@ -15,8 +15,8 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 builder.Services
     .AddHealthChecks()
     .AddApplicationStatus("Applikationsstatus")
-    .AddMySql(connectionString, "Datenbank IMS.Portal")
-    .AddMySql(connectionStringQm, "Datenbank IMS.Qm")
+    .AddMySql(connectionString, "Datenbank MasterDB")
+    .AddMySql(connectionStringSettings, "Datenbank Settings")
 ;
 
 builder.Services
