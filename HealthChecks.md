@@ -3,6 +3,7 @@
 ### Nuget-Pakete
 AspNetCore.HealthChecks.ApplicationStatus  
 AspNetCore.HealthChecks.MySql  
+AspNetCore.HealthChecks.Sqlite  
 AspNetCore.HealthChecks.UI  
 AspNetCore.HealthChecks.UI.Client  
 AspNetCore.HealthChecks.UI.InMemory.Storage  
@@ -45,3 +46,21 @@ app.UseAuthentication();
 app.UseAuthorization();
 ...
 ```
+### appsettings.json
+```
+...
+  "HealthChecksUI": {
+    "HealthChecks": [
+      {
+        "Name": "AppHealth",
+        "Uri": "/healthcheck"
+      }
+    ],
+    "EvaluationTimeInSeconds": 30
+  },
+  "Logging": {
+...
+```
+### HealtChecks Call
+[UI](*/healtcheck-ui)  
+[Checks](*/healtcheck)  
