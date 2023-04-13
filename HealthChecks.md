@@ -16,7 +16,7 @@ builder.Services
     .AddHealthChecks()
     .AddApplicationStatus("Applikationsstatus")
     .AddMySql(connectionString, "Datenbank MasterDB")
-    .AddMySql(connectionStringSettings, "Datenbank Settings")
+    .AddSqlite(connectionStringSettings, name: "Datenbank Settings")
 ;
 
 builder.Services
@@ -40,6 +40,8 @@ app.UseRouting()
         });
         //config.MapHealthChecksUI();
     });
-
+...
+app.UseAuthentication();
+app.UseAuthorization();
 ...
 ```
