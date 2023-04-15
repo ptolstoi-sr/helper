@@ -27,7 +27,6 @@ builder.Services
 ...
 app.UseHealthChecksUI(config =>
 {
-    config.ResourcesPath = "/ui/resources";
     config.UIPath = "/healthcheck-ui";
 });
 
@@ -39,7 +38,6 @@ app.UseRouting()
             Predicate = _ => true,
             ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
         });
-        //config.MapHealthChecksUI();
     });
 ...
 app.UseAuthentication();
@@ -62,5 +60,5 @@ app.UseAuthorization();
 ...
 ```
 ### HealtChecks Call
-[UI](*/healtcheck-ui)  
-[Checks](*/healtcheck)  
+- UI: /healthcheck-ui
+- Checks: /healthcheck
