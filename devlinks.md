@@ -103,6 +103,7 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 ```
 ## Authentifizierung
 [Windows-Authentifizierung mithilfe von Negotiate und Kerberos](https://learn.microsoft.com/de-de/aspnet/core/security/authentication/windowsauth?view=aspnetcore-7.0&tabs=visual-studio&viewFallbackFrom=aspnetcore-3.0#kestrel)  
+[Verwenden der cookie Authentifizierung ohne ASP.NET Core Identity](https://learn.microsoft.com/de-de/aspnet/core/security/authentication/cookie?view=aspnetcore-7.0)  
 [LDAP authentication in ASP.NET Core MVC](https://decovar.dev/blog/2022/06/16/dotnet-ldap-authentication/)  
 # Komponenten
 [bpmn-js: BPMN 2.0 rendering toolkit and web modeler | Toolkits | bpmn.io](https://bpmn.io/toolkit/bpmn-js/)  
