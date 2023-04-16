@@ -13,30 +13,38 @@ using HealthChecks.ApplicationStatus.DependencyInjection;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 ...
+var dllname = typeof(Program).Assembly.GetName().Name ?? "Applikation";
+
+builder.Services
+    .AddHealthChecksUI(options =>
+    {
+        options.SetEvaluationTimeInSeconds(15); //time in seconds between check
+        options.MaximumHistoryEntriesPerEndpoint(60); //maximum history of checks
+        options.SetApiMaxActiveRequests(1); //api requests concurrency
+
+        options.AddHealthCheckEndpoint(dllname,"/healthchecks"); //map health check api
+    })
+    .AddInMemoryStorage();
+
 builder.Services
     .AddHealthChecks()
     .AddApplicationStatus("Applikationsstatus")
-    .AddMySql(connectionString, "Datenbank MasterDB")
-    .AddSqlite(connectionStringSettings, name: "Datenbank Settings")
-;
+    .AddSqlite(connstring, name: "Datenbank");
 
-builder.Services
-    .AddHealthChecksUI()
-    .AddInMemoryStorage();
+builder.Services.AddControllersWithViews();
 
 ...
-app.UseHealthChecksUI(config =>
-{
-    config.UIPath = "/healthcheck-ui";
-});
-
 app.UseRouting()
     .UseEndpoints(config =>
     {
-        config.MapHealthChecks("/healthcheck", new HealthCheckOptions
+        config.MapHealthChecks("/healthchecks", new HealthCheckOptions
         {
             Predicate = _ => true,
             ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+        });
+        config.MapHealthChecksUI(options =>
+        {
+            options.AsideMenuOpened = false;
         });
     });
 ...
@@ -44,21 +52,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 ...
 ```
-### appsettings.json
-```
-...
-  "HealthChecksUI": {
-    "HealthChecks": [
-      {
-        "Name": "AppHealth",
-        "Uri": "/healthcheck"
-      }
-    ],
-    "EvaluationTimeInSeconds": 30
-  },
-  "Logging": {
-...
-```
 ### HealtChecks Call
-- UI: /healthcheck-ui
-- Checks: /healthcheck
+- UI: /healthchecks-ui
+- Checks: /healthchecks
