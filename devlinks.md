@@ -119,4 +119,4 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [7 Email Design Best Practices for 2023](https://www.sendinblue.com/blog/email-design-best-practices/)  
 [Email Design: The Ultimate Guide for 2023 (Best Practices+Examples)](https://www.mailmunch.com/blog/email-design)  
 [13 Email Design Best Practices for 2023](https://unlayer.com/blog/the-ultimate-guide-to-email-design-best-practices)  
-[https://www.getresponse.com/blog/email-design-best-practices](Email Design Best Practices for 2023)  
+[Email Design Best Practices for 2023](https://www.getresponse.com/blog/email-design-best-practices)  
