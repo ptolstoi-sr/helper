@@ -112,3 +112,11 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [PivotTable.js](https://pivottable.js.org/examples/)  
 [Free Web Reporting Tool | JavaScript Pivot Grid | WebDataRocks](https://www.webdatarocks.com/)  
 [SCODi 4P - Prozessmanagement / Qualitätsmanagement QM Software - QMS](https://www.scodi.ch/qm-software?gclid=EAIaIQobChMI5_GF6fuC_QIVpgIGAB2jkwGpEAAYAyAAEgLncvD_BwE)  
+# Javascript
+[Syncfusion:JavaScript SOLID Principles: How to Write Maintainable Code](https://www.syncfusion.com/blogs/post/solid-principles-in-javascript.aspx)  
+# Mail
+[Modern HTML email (tables no longer required)](https://fullystacked.net/posts/modern-html-email/)  
+[7 Email Design Best Practices for 2023](https://www.sendinblue.com/blog/email-design-best-practices/)  
+[Email Design: The Ultimate Guide for 2023 (Best Practices+Examples)](https://www.mailmunch.com/blog/email-design)  
+[13 Email Design Best Practices for 2023](https://unlayer.com/blog/the-ultimate-guide-to-email-design-best-practices)  
+[https://www.getresponse.com/blog/email-design-best-practices](Email Design Best Practices for 2023)  
