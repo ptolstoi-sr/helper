@@ -82,6 +82,7 @@
 [ASP.NET Core Series](https://code-maze.com/net-core-series/)  
 [Blazor WebAssembly Series](https://code-maze.com/blazor-webassembly-series/)  
 ### Entity Framework Core
+[Entity Framework Core](https://learn.microsoft.com/de-de/ef/core/)  
 [Entity Framework Core Series](https://code-maze.com/entity-framework-core-series/)  
 #### Repository Patterns
 [ASP.NET Core Web API – Repository Pattern](https://code-maze.com/net-core-web-development-part4/)  
