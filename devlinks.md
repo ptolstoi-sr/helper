@@ -4,10 +4,13 @@
 [Clean Code Developer](https://clean-code-developer.de/)  
 [Awesome Clean Code Resources](https://github.com/abiodunjames/Awesome-Clean-Code-Resources)  
 # Tutorials: Architektur, Technologie
+## Best Prcticies
+[The SSW Rules content](https://github.com/SSWConsulting/SSW.Rules.Content)  
 ## CleanArchitektur
 [The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
 [Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
 [Clean Architecture by Steve Smith (ardalis)](https://github.com/ardalis/cleanarchitecture)  
+[Rules to Better Clean Architecture](https://ssw.com.au/rules/rules-to-better-clean-architecture/)  
 [CleanArchitecture: Minimum, Middle, Maximum, Ultra](https://github.com/denis-tsv/CleanArchitecture)  
 [Clean Architecture for ASP.NET Core Solution: A Case Study](https://blog.ndepend.com/clean-architecture-for-asp-net-core-solution/)  
 [Web Application Architecture: The Latest Guide](https://dzone.com/articles/web-application-architecture-the-latest-guide)  
