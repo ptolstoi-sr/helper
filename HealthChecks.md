@@ -34,6 +34,10 @@ builder.Services
 builder.Services.AddControllersWithViews();
 
 ...
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.UseRouting()
     .UseEndpoints(config =>
     {
@@ -41,15 +45,13 @@ app.UseRouting()
         {
             Predicate = _ => true,
             ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-        });
+        }).AllowAnonymous();
         config.MapHealthChecksUI(options =>
         {
+            options.AddCustomStylesheet(@"wwwroot\css\healthcheckui.css");
             options.AsideMenuOpened = false;
-        });
+        }).AllowAnonymous();
     });
-...
-app.UseAuthentication();
-app.UseAuthorization();
 ...
 ```
 ### HealtChecks Call
