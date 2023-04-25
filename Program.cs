@@ -157,9 +157,7 @@ static void KerberosAuthentifizierung(WebApplicationBuilder builder)
             {
                 options.EnableLdap(settings =>
                 {
-                    settings.Domain = "muc.ams-gmbh.com";
-                    //settings.MachineAccountName = "devadmin";
-                    //settings.MachineAccountPassword = "l36u6|\\oaKn?-@Ck=102k~FLp_;8Ael~";
+                    settings.Domain = "192.168.2.1";
                 });
             }
         });
