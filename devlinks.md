@@ -6,6 +6,7 @@
 # Tutorials: Architektur, Technologie
 ## Best Prcticies
 [The SSW Rules content](https://github.com/SSWConsulting/SSW.Rules.Content)  
+[N-Layer Architecture In A Multi-Project Solution with Microsoft.Extensions.DependencyInjection](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)  
 ## CleanArchitektur
 [The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
 [Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
