@@ -126,6 +126,7 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [SCODi 4P - Prozessmanagement / Qualitätsmanagement QM Software - QMS](https://www.scodi.ch/qm-software?gclid=EAIaIQobChMI5_GF6fuC_QIVpgIGAB2jkwGpEAAYAyAAEgLncvD_BwE)  
 # Javascript
 [Syncfusion:JavaScript SOLID Principles: How to Write Maintainable Code](https://www.syncfusion.com/blogs/post/solid-principles-in-javascript.aspx)  
+[33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts)  
 # Mail
 [Modern HTML email (tables no longer required)](https://fullystacked.net/posts/modern-html-email/)  
 [7 Email Design Best Practices for 2023](https://www.sendinblue.com/blog/email-design-best-practices/)  
