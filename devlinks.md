@@ -4,9 +4,12 @@
 [Clean Code Developer](https://clean-code-developer.de/)  
 [Awesome Clean Code Resources](https://github.com/abiodunjames/Awesome-Clean-Code-Resources)  
 # Tutorials: Architektur, Technologie
-## Best Prcticies
+## Best Practicies
 [The SSW Rules content](https://github.com/SSWConsulting/SSW.Rules.Content)  
 [N-Layer Architecture In A Multi-Project Solution with Microsoft.Extensions.DependencyInjection](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)  
+[hacker-laws](https://github.com/solarrust/hacker-laws)  
+## Development
+[Public APIs](https://github.com/public-apis/public-apis)  
 ## CleanArchitektur
 [The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
 [Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
@@ -90,6 +93,10 @@
 [Repository Pattern in ASP.NET Core – Ultimate Guide](https://codewithmukesh.com/blog/repository-pattern-in-aspnet-core/)  
 [Getting Started with Generics in .NET](https://www.telerik.com/blogs/getting-started-generics-dotnet)  
 [Entity Framework Core Generic Repository](https://codingblast.com/entity-framework-core-generic-repository/)  
+### CQRS Command Query Responsibility Segregation
+[CQRS and the Mediator Pattern](https://code-maze.com/cqrs-mediatr-in-aspnet-core/)  
+### Automapper
+[Getting Started with AutoMapper in ASP.NET Core](https://code-maze.com/automapper-net-core/)  
 ## Testing
 [Komponententests für C# in .NET Core mit „dotnet test“ und xUnit](https://learn.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test)  
 [Organisieren und Testen von Projekten mit der .NET-CLI](https://learn.microsoft.com/de-de/dotnet/core/tutorials/testing-with-cli)  
