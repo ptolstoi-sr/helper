@@ -6,8 +6,10 @@
 # Tutorials: Architektur, Technologie
 ## Best Practicies
 [The SSW Rules content](https://github.com/SSWConsulting/SSW.Rules.Content)  
-[N-Layer Architecture In A Multi-Project Solution with Microsoft.Extensions.DependencyInjection](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)  
 [hacker-laws](https://github.com/solarrust/hacker-laws)  
+### Dependency Injection
+[Advanced Dependency Injection Techniques in ASP.NET Core](https://medium.com/geekculture/advanced-dependency-injection-techniques-in-asp-net-core-3e6e9e0c541a)  
+[N-Layer Architecture In A Multi-Project Solution with Microsoft.Extensions.DependencyInjection](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)  
 ## Development
 [Public APIs](https://github.com/public-apis/public-apis)  
 ### Documentation
