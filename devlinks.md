@@ -30,6 +30,7 @@
 [Evolving modular monoliths: 2. Breaking up your app into multiple solutions](https://www.thereformedprogrammer.net/evolving-modular-monoliths-2-breaking-up-your-app-into-multiple-solutions/)  
 [Evolving modular monoliths: 3. Passing data between bounded contexts](https://www.thereformedprogrammer.net/evolving-modular-monoliths-3-passing-data-between-bounded-contexts/)  
 [How to Organize Clean Architecture to Modular Patterns in 10 Minutes](https://www.codeproject.com/Articles/1210984/How-to-Organize-Clean-Architecture-to-Modular-Patt)  
+[Freigeben von Controllern, Ansichten, Razor Seiten und mehr mit Anwendungsparts](https://learn.microsoft.com/de-de/aspnet/core/mvc/advanced/app-parts?view=aspnetcore-7.0)  
 ## Containern, Docker
 [Tutorial: Containerisieren einer .NET Core-App](https://learn.microsoft.com/de-de/dotnet/core/docker/build-container?tabs=windows)  
 [Docker-Images für ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-7.0)  
