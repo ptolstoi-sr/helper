@@ -77,7 +77,7 @@ app.UseRouting()
 
         endpoints.MapHealthChecksUI(setup =>
         {
-            setup.AddCustomStylesheet(@"wwwroot\css\healthcheckui.css");
+            setup.AddCustomStylesheet(@"wwwroot/css/healthcheckui.css");
             setup.AsideMenuOpened = false;
         }).AllowAnonymous();
     });
