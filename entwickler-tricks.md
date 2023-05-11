@@ -55,8 +55,8 @@ public class MappingService : IMappingService
 ##### MappingProfils
 ```
 using AutoMapper;
-using Project.Application.QM.Modelle;
-using Project.Domain.Qm.Aggregate.MaßnahmeAggregat;
+using Project.Application.Models;
+using Project.Domain.Aggregates.{Entity}Agregate;
 
 namespace Project.Application.MappingProfils;
 public class {Entity}Profil : Profile
