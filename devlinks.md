@@ -104,12 +104,20 @@
 ### Automapper
 [Getting Started with AutoMapper in ASP.NET Core](https://code-maze.com/automapper-net-core/)  
 ## Testing
+### dotnet
 [Komponententests für C# in .NET Core mit „dotnet test“ und xUnit](https://learn.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test)  
 [Organisieren und Testen von Projekten mit der .NET-CLI](https://learn.microsoft.com/de-de/dotnet/core/tutorials/testing-with-cli)  
 [Testen von EF Core-Anwendungen](https://learn.microsoft.com/de-de/ef/core/testing/)  
 [Testing Controller Logic](https://jakeydocs.readthedocs.io/en/latest/mvc/controllers/testing.html)  
 [Integration Testing](https://jakeydocs.readthedocs.io/en/latest/testing/integration-testing.html)  
 [Testing ASP.NET Core Applications](https://code-maze.com/asp-net-core-testing/)  
+### javascript 
+[Entwickeln von JavaScript- und TypeScript-Code in Visual Studio ohne Projektmappen oder Projekte](https://learn.microsoft.com/de-de/visualstudio/javascript/develop-javascript-code-without-solutions-projects?view=vs-2022)  
+#### JS Testrunner
+[Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.](https://mochajs.org/)  
+[Behavior-Driven JavaScript](https://jasmine.github.io/)  
+[tap-producing test harness for node and browsers](https://github.com/ljharb/tape)  
+[Jest is a delightful JavaScript Testing Framework with a focus on simplicity.](https://jestjs.io/)  
 ## MariaDb
 [Dokumentation MariaDb](https://mariadb.com/kb/en/sql-statements-structure/)  
 [Dokumentation Tech on the Net](https://www.techonthenet.com/mariadb/index.php)  
