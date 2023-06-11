@@ -51,6 +51,8 @@
 [Hosten von ASP.NET Core unter Linux mit Nginx](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-7.0&tabs=linux-ubuntu)  
 [Hosten von ASP.NET Core unter Linux mit Apache](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-7.0)  
 [Hosting Multiple ASP.NET Core Apps in Ubuntu Linux Server Using Apache](https://www.syncfusion.com/blogs/post/hosting-multiple-asp-net-core-apps-in-ubuntu-linux-server-using-apache.aspx)  
+[Host Multiple Domains on One Server or IP with Apache or Nginx](https://geekflare.com/multiple-domains-on-one-server-with-apache-nginx/)  
+[How To Set Up Apache Virtual Hosts on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04)  
 # Projekt
 ## Solution Template
 [Business Apps Made Simple with Asp.Net Core MVC / TypeScript](https://github.com/serenity-is/Serenity)  
