@@ -105,6 +105,10 @@
 [CQRS and the Mediator Pattern](https://code-maze.com/cqrs-mediatr-in-aspnet-core/)  
 ### Automapper
 [Getting Started with AutoMapper in ASP.NET Core](https://code-maze.com/automapper-net-core/)  
+## Quellcodeverwaltung
+### GIT
+[LearnGitBranching](https://github.com/pcottle/learnGitBranching)  
+[A JavaScript library to draw pretty git graphs.](https://github.com/nicoespeon/gitgraph.js)  
 ## Testing
 ### dotnet
 [Komponententests für C# in .NET Core mit „dotnet test“ und xUnit](https://learn.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test)  
@@ -140,6 +144,8 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [JWT Authentication And Authorization In .NET 6.0 With Identity Framework](https://www.c-sharpcorner.com/article/jwt-authentication-and-authorization-in-net-6-0-with-identity-framework/)  
 [Secure ASP.NET Core Web API using JWT Authentication](https://www.codeproject.com/Articles/5287315/Secure-ASP-NET-Core-Web-API-using-JWT-Authenticati)  
 [.NET 5.0 - JWT Authentication Tutorial with Example API](https://jasonwatmore.com/post/2021/04/30/net-5-jwt-authentication-tutorial-with-example-api)  
+# ORM
+[Sequelize is an easy-to-use and promise-based Node.js ORM tool](https://github.com/sequelize/sequelize)  
 # Komponenten
 [bpmn-js: BPMN 2.0 rendering toolkit and web modeler | Toolkits | bpmn.io](https://bpmn.io/toolkit/bpmn-js/)  
 [Quartz.NET](https://www.quartz-scheduler.net/)  
@@ -156,3 +162,6 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [Email Design: The Ultimate Guide for 2023 (Best Practices+Examples)](https://www.mailmunch.com/blog/email-design)  
 [13 Email Design Best Practices for 2023](https://unlayer.com/blog/the-ultimate-guide-to-email-design-best-practices)  
 [Email Design Best Practices for 2023](https://www.getresponse.com/blog/email-design-best-practices)  
+# Web
+[Awesome Web Typography](https://github.com/deanhume/typography)  
+[Pywal is a tool that generates a color palette from the dominant colors in an image.](https://github.com/dylanaraps/pywal)  
