@@ -1,0 +1,6 @@
+[Papermerge - Document Management System for Digital Archives (python)](https://github.com/ciur/papermerge)  
+[Docspell - Document Management System (DMS) (elm, scala](https://github.com/eikek/docspell)  
+[Open Source Document Management System (java)](https://github.com/openkm/document-management-system)  
+[Mayan EDMS (python)](https://github.com/mayan-edms/Mayan-EDMS)  
+[seeddms (php)](https://sourceforge.net/projects/seeddms/files/)  
+[Lightweight document management system (java) demo workflow](https://github.com/sismics/docs)  
