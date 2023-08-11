@@ -165,3 +165,7 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 # Web
 [Awesome Web Typography](https://github.com/deanhume/typography)  
 [Pywal is a tool that generates a color palette from the dominant colors in an image.](https://github.com/dylanaraps/pywal)  
+[Master the Art of Crafting Responsive Web Apps like a Pro!](https://responsively.app/)  
+[Open Source Document Signing](https://www.docuseal.co/)  
+[Analyze webpack production bundle](https://gradejs.com/)  
+[Collect, Organize, and Preserve Webpages Featuring Seamless Collaboration](https://github.com/linkwarden/linkwarden)  
