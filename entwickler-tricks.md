@@ -15,6 +15,24 @@ public async Task<int> MethodAsync()
     return await Task.Run(() => { return 1; });
 }
 ```
+### Lazy 
+[Async Lazy In C# – With Great Power Comes Great Responsibility](https://www.codeproject.com/Articles/5366567/Async-Lazy-In-Csharp-With-Great-Power-Comes-Great)  
+```
+public class AsyncLazy<T> : Lazy<Task<T>>
+{
+    public AsyncLazy(Func<T> valueFactory) :
+        base(() => Task.Run(valueFactory))
+    { }
+
+    public AsyncLazy(Func<Task<T>> taskFactory) :
+        base(() => Task.Run(() => taskFactory()).Unwrap())
+    { }
+}
+...
+AsyncLazy<MyClass> myObject = new AsyncLazy<MyClass>(() => new MyClass());
+// later...
+MyClass result = await myObject.Value;
+```
 ### AutoMapper
 #### Core App
 ```
