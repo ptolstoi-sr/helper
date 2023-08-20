@@ -170,3 +170,7 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [Open Source Document Signing](https://www.docuseal.co/)  
 [Analyze webpack production bundle](https://gradejs.com/)  
 [Collect, Organize, and Preserve Webpages Featuring Seamless Collaboration](https://github.com/linkwarden/linkwarden)  
+## Template
+[Admin Web Core Razor](https://github.com/erossini/AdminWebCoreRazor)  
+[Argon Dashboard ASP.NET Core Bootstrap 4](https://github.com/creativetimofficial/argon-dashboard-asp-net)  
+[AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE)  
