@@ -15,7 +15,7 @@
 ## Development
 [Public APIs](https://github.com/public-apis/public-apis)  
 ### Documentation
-[Build your docs with docfx]([https://dotnet.github.io/docfx/index.html](https://github.com/dotnet/docfx))  
+[Build your docs with docfx]([https://dotnet.github.io/docfx/index.html](https://github.com/dotnet/docfx)  
 [Doxygen](https://github.com/doxygen/doxygen)  
 [Natural Docs](https://github.com/NaturalDocs/NaturalDocs)  
 ## CleanArchitektur
