@@ -185,3 +185,4 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [Voler is a Admin Dashboard Template that can help you develop faster](https://github.com/zuramai/voler)  
 [Bootstrap 5 Admin Template and Feather & FontAwesome Icons with lots of additional goodies.](https://github.com/ajkr195/Avni)  
 [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard)  
+[Argon Dashboard ASP.NET Core](https://github.com/creativetimofficial/argon-dashboard-asp-net)  
