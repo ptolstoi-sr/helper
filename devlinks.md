@@ -52,6 +52,8 @@
 [Getting started with cross-platform development using .NET on Ubuntu on WSL](https://ubuntu.com/blog/creating-cross-platform-applications-with-net-on-ubuntu-on-wsl)  
 [Installieren von .NET unter Linux mithilfe eines Installationsskripts oder durch Extrahieren von Binärdateien](https://learn.microsoft.com/de-de/dotnet/core/install/linux-scripted-manual#scripted-install)  
 [Hosten von ASP.NET Core unter Linux mit Nginx](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-7.0&tabs=linux-ubuntu)  
+[Teil 2.6 : Gleichzeitiges Ausführen von zwei ASP.NET Core-Anwendungen](https://learn.microsoft.com/de-de/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/2-6-run-two-aspnetcore-applications-same-time)  
+[Übersicht über ASP.NET Core bei der Linux-Problembehandlung](https://learn.microsoft.com/de-de/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/introduction)  
 [Hosten von ASP.NET Core unter Linux mit Apache](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-7.0)  
 [Hosting Multiple ASP.NET Core Apps in Ubuntu Linux Server Using Apache](https://www.syncfusion.com/blogs/post/hosting-multiple-asp-net-core-apps-in-ubuntu-linux-server-using-apache.aspx)  
 [Host Multiple Domains on One Server or IP with Apache or Nginx](https://geekflare.com/multiple-domains-on-one-server-with-apache-nginx/)  
