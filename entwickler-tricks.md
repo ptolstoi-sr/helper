@@ -127,3 +127,8 @@ public class {Entity}Profil : Profile
             return dataList;
         }
 ```
+# Javascript
+## Lazy
+[jQuery Lazy](http://jquery.eisbehr.de/lazy/)  
+[yall.js (Yet Another Lazy Loader)](https://github.com/malchata/yall.js)  
+[lazysizes - High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, that detects any visibility changes triggered through user interaction, CSS or JavaScript without configuration.](https://github.com/aFarkas/lazysizes)  
