@@ -11,3 +11,9 @@
 [AspNetCore.ReportViewer](https://github.com/ststeiger/AspNetCore.ReportViewer)  
 [Wrapper around ReportViewer Export Functionality](https://github.com/ststeiger/ReportViewerWrapper)  
 [SSRS Pro Viewer 299$ / 599$](https://forerunnersw.com/home/SSRSReportViewerPro)  
+
+---
+
+[Seal Report & ETL](https://sealreport.org/)  
+[OpenReports](https://oreports.com/)  
+[Anka Report](https://github.com/ankareport/ankareport)  
