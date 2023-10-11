@@ -19,6 +19,8 @@
 [Static site generator for .NET API documentation.](https://github.com/dotnet/docfx)  
 [Doxygen](https://github.com/doxygen/doxygen)  
 [Natural Docs](https://github.com/NaturalDocs/NaturalDocs)  
+### Tutorials
+[General](https://garywoodfine.com/category/general/)  
 ## CleanArchitektur
 [The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
 [Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
@@ -39,6 +41,8 @@
 [Evolving modular monoliths: 3. Passing data between bounded contexts](https://www.thereformedprogrammer.net/evolving-modular-monoliths-3-passing-data-between-bounded-contexts/)  
 [How to Organize Clean Architecture to Modular Patterns in 10 Minutes](https://www.codeproject.com/Articles/1210984/How-to-Organize-Clean-Architecture-to-Modular-Patt)  
 [Freigeben von Controllern, Ansichten, Razor Seiten und mehr mit Anwendungsparts](https://learn.microsoft.com/de-de/aspnet/core/mvc/advanced/app-parts?view=aspnetcore-7.0)  
+## Monolit Core
+[Creating Good Monoliths in ASP.NET Core](https://www.telerik.com/blogs/creating-good-monoliths-aspnet-core)  
 ## Containern, Docker
 [Tutorial: Containerisieren einer .NET Core-App](https://learn.microsoft.com/de-de/dotnet/core/docker/build-container?tabs=windows)  
 [Docker-Images für ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-7.0)  
