@@ -3,6 +3,7 @@
 [Clean Code concepts adapted for .NET/.NET Core](https://github.com/thangchung/clean-code-dotnet#single-responsibility-principle-srp)  
 [Clean Code Developer](https://clean-code-developer.de/)  
 [Awesome Clean Code Resources](https://github.com/abiodunjames/Awesome-Clean-Code-Resources)  
+[Unlocking Clean Code: 20 Architectural Tips for Every Developer](https://dzone.com/articles/clean-code-tips?)  
 # Tutorials: Architektur, Technologie
 ## Best Practicies
 [The SSW Rules content](https://github.com/SSWConsulting/SSW.Rules.Content)  
