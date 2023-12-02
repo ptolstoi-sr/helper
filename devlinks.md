@@ -106,6 +106,8 @@
 ### Entity Framework Core
 [Entity Framework Core](https://learn.microsoft.com/de-de/ef/core/)  
 [Entity Framework Core Series](https://code-maze.com/entity-framework-core-series/)  
+[Entity Framework Core-Tools-Referenz – Paket-Manager-Konsole in Visual Studio](https://learn.microsoft.com/de-de/ef/core/cli/powershell)  
+[Entity Framework Core-Toolsreferenz – .NET Core-CLI](https://learn.microsoft.com/de-de/ef/core/cli/dotnet)  
 #### Repository Patterns
 [ASP.NET Core Web API – Repository Pattern](https://code-maze.com/net-core-web-development-part4/)  
 [Repository Pattern in ASP.NET Core – Ultimate Guide](https://codewithmukesh.com/blog/repository-pattern-in-aspnet-core/)  
