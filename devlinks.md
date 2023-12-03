@@ -170,6 +170,13 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts)  
 [DE clean-code-javascript](https://github.com/marcbruederlin/clean-code-javascript)  
 [EN clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)  
+## WYSIWYG Editors
+[awesome-wysiwyg-editors](https://github.com/JefMari/awesome-wysiwyg-editors)  
+[TOAST UI Editor](https://github.com/nhn/tui.editor)  
+[SunEditor](https://github.com/JiHong88/SunEditor)  
+[Editor.js](https://github.com/codex-team/editor.js)  
+[ysEditor.js](https://github.com/yusufsefasezer/ysEditor.js)  
+[writer.js](https://github.com/alirezakefayati/writer.js)  
 # Mail
 [Modern HTML email (tables no longer required)](https://fullystacked.net/posts/modern-html-email/)  
 [7 Email Design Best Practices for 2023](https://www.sendinblue.com/blog/email-design-best-practices/)  
