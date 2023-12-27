@@ -70,6 +70,13 @@
 [Open Source Web Application Framework for ASP.NET Core](https://github.com/abpframework/abp)  
 ## MVC und Razor Pages
 [Add Razor Pages support to a .Net Core MVC Project](https://dev.to/ivanrainbolt/add-razor-pages-support-to-a-net-core-mvc-project-1j54)  
+## Validation
+[Add-on to jQuery Validation to enable unobtrusive validation options in data-* attributes.](https://github.com/aspnet/jquery-validation-unobtrusive)  
+[A popular .NET validation library for building strongly-typed validation rules.](https://github.com/FluentValidation/FluentValidation)  
+[Adding client-side validation to ASP.NET Core, without jQuery or unobtrusive validation](https://andrewlock.net/adding-client-side-validation-to-aspnet-core-without-jquery-or-unobtrusive-validation/)  
+[A client validation library for ASP.NET MVC that does not require jQuery](https://github.com/haacked/aspnet-client-validation)  
+[A library of string validators and sanitizers.](https://github.com/validatorjs/validator.js)  
+[Modern form validation library. Simple, powerful and lightweight (~5kb gzip). Written in Typescript, and has no dependencies (no JQuery!)](https://just-validate.dev/)  
 ## WebApi
 [ASP.Net Core: Add Web API to existing Project](https://www.aspsnippets.com/Articles/ASPNet-Core-Add-Web-API-to-existing-Project.aspx)  
 [How to use Swagger in Existing Asp.Net Core MVC Project](https://code2night.com/Blog/MyBlog/How-to-use-Swagger-in-Existing-Asp-Net-Core-MVC-Project)  
