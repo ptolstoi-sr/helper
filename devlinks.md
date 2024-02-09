@@ -77,6 +77,10 @@
 [A client validation library for ASP.NET MVC that does not require jQuery](https://github.com/haacked/aspnet-client-validation)  
 [A library of string validators and sanitizers.](https://github.com/validatorjs/validator.js)  
 [Modern form validation library. Simple, powerful and lightweight (~5kb gzip). Written in Typescript, and has no dependencies (no JQuery!)](https://just-validate.dev/)  
+[TypeScript-first schema validation with static type inference](https://github.com/colinhacks/zod)  
+[Ajv JSON schema validator](https://ajv.js.org/)  
+[Typia Super-fast Validator](https://typia.io/)  
+[JavaScript fluent validation library](https://github.com/imbrn/v8n)  
 ## WebApi
 [ASP.Net Core: Add Web API to existing Project](https://www.aspsnippets.com/Articles/ASPNet-Core-Add-Web-API-to-existing-Project.aspx)  
 [How to use Swagger in Existing Asp.Net Core MVC Project](https://code2night.com/Blog/MyBlog/How-to-use-Swagger-in-Existing-Asp-Net-Core-MVC-Project)  
