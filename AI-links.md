@@ -6,6 +6,7 @@
 [gpt4all: run open-source LLMs anywhere](https://github.com/nomic-ai/gpt4all)  
 [Rethink the Computer: Turn your computer into an AI machine](https://github.com/janhq/jan)  
 [LM Studio - Discover, download, and run local LLMs](https://lmstudio.ai/)  
+[Run local LLaMA/GPT model easily and fast in C#!🤗 It's also easy to integrate LLamaSharp with semantic-kernel, unity, WPF and WebApp.](https://github.com/SciSharp/LLamaSharp)  
 [LocalGPT: Secure, Local Conversations with Your Documents](https://github.com/PromtEngineer/localGPT)  
 [Distribute and run LLMs with a single file.](https://github.com/Mozilla-Ocho/llamafile)  
 [Get up and running with large language models, locally.](https://ollama.com/)  
