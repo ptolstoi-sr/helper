@@ -181,6 +181,14 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts)  
 [DE clean-code-javascript](https://github.com/marcbruederlin/clean-code-javascript)  
 [EN clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)  
+## Form Editors
+[A jQuery plugin for drag and drop form creation](https://github.com/kevinchappell/formBuilder)  
+[Free open source alternative to TypeForm, TellForm, or Google Forms](https://github.com/ohmyform/ohmyform)  
+[Alpaca provides the easiest way to generate interactive HTML5 forms for web and mobile applications.](https://github.com/gitana/alpaca)  
+[A Form and Data Management Platform for Progressive Web Applications.](https://github.com/formio/formio)  
+[Budibase - The low code platform you'll enjoy using](https://budibase.com/)  
+[Visually edit and embed JSON-based forms.](https://bpmn.io/toolkit/form-js/)  
+[Create your own forms and surveys, get your data back.](https://github.com/Kinto/formbuilder)  
 ## WYSIWYG Editors
 [awesome-wysiwyg-editors](https://github.com/JefMari/awesome-wysiwyg-editors)  
 [TOAST UI Editor](https://github.com/nhn/tui.editor)  
