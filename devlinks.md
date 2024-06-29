@@ -70,6 +70,7 @@
 [ubuntuusers.de](https://wiki.ubuntuusers.de/Startseite/)  
 # Projekt
 ## Solution Template
+[Practical samples of ASP.NET Core 8.0, 7.0, 6.0, 5.0, 3.1, 2.2, and 2.1 projects](https://github.com/dodyg/practical-aspnetcore)  
 [Business Apps Made Simple with Asp.Net Core MVC / TypeScript](https://github.com/serenity-is/Serenity)  
 [Open Source Web Application Framework for ASP.NET Core](https://github.com/abpframework/abp)  
 ## MVC und Razor Pages
@@ -92,7 +93,7 @@
 [A Deep Dive into Html.RenderComponentAsync with ASP.NET Core MVC — How to add Blazor Server or Blazor WebAssembly To An Existing MVC Application](https://www.intertech.com/a-deep-dive-into-html-rendercomponentasync-with-asp-net-core-mvc-how-to-add-blazor-server-or-blazor-webassembly-to-an-existing-mvc-application/)  
 [How to Integrate Blazor WebAssembly into an Existing ASP.NET Core Web Application](https://www.telerik.com/blogs/integrate-blazor-webassembly-existing-aspnet-core-web-application)  
 [Adding ServerSide Blazor To Existing ASP.Net Core Project](https://www.c-sharpcorner.com/article/add-blazor-to-existing-asp-net-core-project/)  
-## Vuejs, npm, Webpack, Gulp, Grunt, Typescript
+## Vuejs, npm, Webpack, Gulp, Grunt, Vite, Typescript
 [Integrating Vue.js V4 In ASP.NET Core 3.1 MVC And File Uploading Using Dropzone](https://www.c-sharpcorner.com/article/integrating-vue-js-v4-in-asp-net-core-3-1-mvc-uploading-a-file-using-dropzone/)  
 ### Grunt
 [GRUNT The JavaScript Task Runner](https://gruntjs.com/)
@@ -105,6 +106,12 @@
 ### Gulp
 [A toolkit to automate & enhance your workflow](https://gulpjs.com/)  
 [Easily Improve Front-end ASP.NET Core App Development with Gulp](https://www.syncfusion.com/blogs/post/easily-improve-front-end-asp-net-core-app-development-with-gulp.aspx)  
+### Vite
+[Vite Next Generation Frontend Tooling](https://vitejs.dev/)  
+[Running Vite with ASP.NET Core Web Applications](https://khalidabuhakmeh.com/running-vite-with-aspnet-core-web-applications)  
+[How to Build a True Multi-Page Website Using ASP.NET, VUE.js, Vite.js: Making the Site Multi-Page with minimal copy-pasting](https://medium.com/@dwgray/how-to-build-a-true-multi-page-website-using-asp-net-7a1e9228b1a9)  
+[Using Vite to bundle JS/CSS in ASP.NET Core MVC](https://matteosonoio.it/aspnet-core-vite/)  
+[Small library to integrate Vite into ASP.NET projects](https://github.com/Eptagone/Vite.AspNetCore)  
 ## HealthCheck 
 [Integritätsprüfungen in ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-7.0)  
 [Systemüberwachung microservices](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)  
