@@ -1,3 +1,7 @@
+# Dotnet
+[.NET Blog](https://devblogs.microsoft.com/dotnet/)  
+[Visual Studio Magazine - Expert Solutions for .NET Development](https://visualstudiomagazine.com/Home.aspx)  
+[A collection of awesome .NET libraries, tools, frameworks and software](https://github.com/quozd/awesome-dotnet)  
 # Cleancode
 [Mit Flow Design zu Clean Code](https://flow-design.info/)  
 [Clean Code concepts adapted for .NET/.NET Core](https://github.com/thangchung/clean-code-dotnet#single-responsibility-principle-srp)  
