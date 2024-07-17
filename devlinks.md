@@ -26,7 +26,9 @@
 [Natural Docs](https://github.com/NaturalDocs/NaturalDocs)  
 ### Tutorials
 [General](https://garywoodfine.com/category/general/)  
-## CleanArchitektur
+## Atypical Design Patterns Guide
+[Architecting ASP.NET Core Applications, 3E_published by Packt](https://github.com/PacktPublishing/Architecting-ASP.NET-Core-Applications-3E)  
+## Clean Architecture
 [The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
 [Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
 [Clean Architecture by Steve Smith (ardalis)](https://github.com/ardalis/cleanarchitecture)  
@@ -38,6 +40,7 @@
 [Onion Architecture in ASP.NET Core](https://code-maze.com/onion-architecture-in-aspnetcore/)  
 [Vertical Slice Architecture in ASP.NET Core](https://code-maze.com/vertical-slice-architecture-aspnet-core/)  
 [Architekturprinzipien](https://learn.microsoft.com/de-de/dotnet/architecture/modern-web-apps-azure/architectural-principles)  
+[Project Template Practical.CleanArchitecture with drawio diagrams](https://github.com/phongnguyend/Practical.CleanArchitecture)  
 ## Modular Architecture
 [Modular Architecture in ASP.NET Core – Building Better Monoliths](https://codewithmukesh.com/blog/modular-architecture-in-aspnet-core/)  
 [Modular Monoliths With ASP.NET Core – Pragmatic Architecture](https://www.thinktecture.com/asp-net-core/modular-monolith/)  
@@ -117,10 +120,6 @@
 [Systemüberwachung microservices](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health)  
 [Healthchecks in ASP.NET Core – Detailed Guide](https://codewithmukesh.com/blog/healthchecks-in-aspnet-core-explained/)  
 [Health Checks in ASP.NET Core](https://code-maze.com/health-checks-aspnetcore/)  
-## Clean Architektur 
-[Project Template ardalis Steve Smith](https://github.com/ardalis/CleanArchitecture)  
-[Project Template Practical.CleanArchitecture with drawio diagrams](https://github.com/phongnguyend/Practical.CleanArchitecture)  
-[CleanArchitecture Minimum, Middle, Maximum, Ultra](https://github.com/denis-tsv/CleanArchitecture)  
 ## Patterns
 [Implementieren der Infrastrukturpersistenzebene mit Entity Framework Core](https://learn.microsoft.com/de-de/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-implementation-entity-framework-core)  
 [ASP.NET Core Series](https://code-maze.com/net-core-series/)  
