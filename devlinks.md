@@ -178,6 +178,11 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [JWT Authentication And Authorization In .NET 6.0 With Identity Framework](https://www.c-sharpcorner.com/article/jwt-authentication-and-authorization-in-net-6-0-with-identity-framework/)  
 [Secure ASP.NET Core Web API using JWT Authentication](https://www.codeproject.com/Articles/5287315/Secure-ASP-NET-Core-Web-API-using-JWT-Authenticati)  
 [.NET 5.0 - JWT Authentication Tutorial with Example API](https://jasonwatmore.com/post/2021/04/30/net-5-jwt-authentication-tutorial-with-example-api)  
+## Nugets
+[Hosting your own NuGet feeds](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/hosting-packages/Overview.md)  
+[NuGet Gallery is a package repository that powers https://www.nuget.org.](https://github.com/NuGet/NuGetGallery)  
+[A lightweight NuGet and symbol server](https://github.com/bagetter/BaGetter)  
+[Private, Fast, Reliable DevOps Platform](https://about.gitea.com/)  
 # ORM
 [Sequelize is an easy-to-use and promise-based Node.js ORM tool](https://github.com/sequelize/sequelize)  
 # Komponenten
