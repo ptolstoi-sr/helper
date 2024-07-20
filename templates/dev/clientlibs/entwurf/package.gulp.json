@@ -1,0 +1,26 @@
+{
+  "name": "aspnetcore-mvc-typescript-project",
+  "version": "1.0.0",
+  "description": "ASP.NET Core MVC project with jQuery, Bootstrap, Gulp, and TypeScript",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "@types/node": "^16.0.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^4.5.4",
+    "browserify": "^17.0.0",
+    "tsify": "^5.0.4",
+    "vinyl-source-stream": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-rename": "^2.0.0"
+  }
+}
