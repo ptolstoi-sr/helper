@@ -1,0 +1,1 @@
+Vorlagen für Einsatz in Visual Studio Community Edition

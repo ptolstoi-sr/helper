@@ -1,0 +1,12 @@
+# Projektmappe
+## Verzeichnisse
+	- data
+	- docs
+	- src
+	- tests
+## Dateien
+- readme.md
+- data\readme.md
+- docs\readme.md
+- src\readme.md
+- tests\readme.md
