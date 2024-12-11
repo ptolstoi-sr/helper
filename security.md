@@ -12,4 +12,5 @@
 - [Sicherheitsaspekte für ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/security/?view=aspnetcore-8.0)  
 - [DotNet Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html)
 - [How to secure legacy ASP.NET MVC against Cross-Site (CSRF) Attacks](https://www.red-gate.com/simple-talk/development/web/how-to-secure-legacy-asp-net-mvc-against-csrf-attacks/)  
-- [A Comprehensive Guide to Secure Coding in C#](https://www.c-sharpcorner.com/article/a-comprehensive-guide-to-secure-coding-in-c-sharp/)  
+- [A Comprehensive Guide to Secure Coding in C#](https://www.c-sharpcorner.com/article/a-comprehensive-guide-to-secure-coding-in-c-sharp/)
+  - [Secure-Coding-CSharp-Guide](https://github.com/ziggyrafiq/Secure-Coding-CSharp-Guide)  
