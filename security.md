@@ -4,6 +4,7 @@
 - [IT-Grundschutz-Kompendium (Edition 2023)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
 - [Security-Insider – das Online-Magazin zu Ransomware, Phishing, KRITIS, Verschlüsselung, Datenschutz und DSGVO, Patches, Zero Day Exploits und Zero Trust.](https://www.security-insider.de/)
 - [Secure Coding: CWE-1007 – die unsichtbare Gefahr durch visuell ähnliche Zeichen](https://www.heise.de/hintergrund/Secure-Coding-CWE-1007-die-unsichtbare-Gefahr-durch-visuell-aehnliche-Zeichen-10188217.html)
+- [Collection of malware source code for a variety of platforms in an array of different programming languages.](https://github.com/vxunderground/MalwareSourceCode)
 # Web
 - [OWASP Top Ten - Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)  
 - [OWASP Nettacker](https://owasp.org/www-project-nettacker/)  
