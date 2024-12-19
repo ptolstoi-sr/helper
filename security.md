@@ -1,5 +1,6 @@
 # Allgemein
-- [OWASP Developer Guide](https://owasp.org/www-project-developer-guide/release/)  
+- [OWASP Developer Guide](https://owasp.org/www-project-developer-guide/release/)
+- [CVS : Security Vulnerabilities, CVEs](https://www.cvedetails.com/vulnerability-list/vendor_id-442/CVS.html)
 - [Bundesamt für Sicherheit in der Informationstechnik => Webanwendungen](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Webanwendungen/webanwendungen_node.html)
 - [IT-Grundschutz-Kompendium (Edition 2023)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
 - [Security-Insider – das Online-Magazin zu Ransomware, Phishing, KRITIS, Verschlüsselung, Datenschutz und DSGVO, Patches, Zero Day Exploits und Zero Trust.](https://www.security-insider.de/)
