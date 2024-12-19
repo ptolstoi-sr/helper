@@ -4,7 +4,6 @@
 - [IT-Grundschutz-Kompendium (Edition 2023)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
 - [Security-Insider – das Online-Magazin zu Ransomware, Phishing, KRITIS, Verschlüsselung, Datenschutz und DSGVO, Patches, Zero Day Exploits und Zero Trust.](https://www.security-insider.de/)
 - [Secure Coding: CWE-1007 – die unsichtbare Gefahr durch visuell ähnliche Zeichen](https://www.heise.de/hintergrund/Secure-Coding-CWE-1007-die-unsichtbare-Gefahr-durch-visuell-aehnliche-Zeichen-10188217.html)
-- [Collection of malware source code for a variety of platforms in an array of different programming languages.](https://github.com/vxunderground/MalwareSourceCode)
 # Web
 - [OWASP Top Ten - Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)  
 - [OWASP Nettacker](https://owasp.org/www-project-nettacker/)  
@@ -17,3 +16,7 @@
 - [How to secure legacy ASP.NET MVC against Cross-Site (CSRF) Attacks](https://www.red-gate.com/simple-talk/development/web/how-to-secure-legacy-asp-net-mvc-against-csrf-attacks/)  
 - [A Comprehensive Guide to Secure Coding in C#](https://www.c-sharpcorner.com/article/a-comprehensive-guide-to-secure-coding-in-c-sharp/)
   - [Secure-Coding-CSharp-Guide](https://github.com/ziggyrafiq/Secure-Coding-CSharp-Guide)  
+# Pentest
+- [A collection of awesome penetration testing resources, tools and other shiny things](https://github.com/enaqx/awesome-pentest)
+- [Collection of malware source code for a variety of platforms in an array of different programming languages.](https://github.com/vxunderground/MalwareSourceCode)
+- [best tool for finding SQLi,CRLF,XSS,LFi,OpenRedirect](https://github.com/coffinxp/loxs)
