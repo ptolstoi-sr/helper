@@ -152,6 +152,7 @@
 [Testing ASP.NET Core Applications](https://code-maze.com/asp-net-core-testing/)  
 ### javascript 
 [Entwickeln von JavaScript- und TypeScript-Code in Visual Studio ohne Projektmappen oder Projekte](https://learn.microsoft.com/de-de/visualstudio/javascript/develop-javascript-code-without-solutions-projects?view=vs-2022)  
+[Chance - Random generator helper for JavaScript](https://github.com/chancejs/chancejs)  
 #### JS Testrunner
 [Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.](https://mochajs.org/)  
 [Behavior-Driven JavaScript](https://jasmine.github.io/)  
