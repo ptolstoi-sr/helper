@@ -1,8 +1,17 @@
-# SVG
-## Online Editor
-[SVGViewer](https://www.svgviewer.dev/)  
-[Boxy SVG](https://boxy-svg.com/)  
-## Entwickler Icons
+## CSS
+### Online Editor
+- [CSS Generators A Polygon shape with clip-path](https://css-generators.com/polygon-shape/)  
+
+### Sammlungen
+- [The Ultimate Collection of CSS-only Shapes](https://css-shape.com/)
+- [The Shapes of CSS](https://css-tricks.com/the-shapes-of-css/)
+- [CSS shapes examples](https://getcssscan.com/css-shapes)
+
+## SVG
+### Online Editor
+- [SVGViewer](https://www.svgviewer.dev/)  
+- [Boxy SVG](https://boxy-svg.com/)  
+### Entwickler Icons
 <svg width="16rem" height="16rem" viewBox="0 0 1000 1000" id="Layer_2" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
   <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -19,24 +28,24 @@
   </g>
 </svg>
 
-## Grundformen
-### Quadrat
+### Grundformen
+#### Quadrat
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect x="16" y="16" width="32" height="32" style="fill: none; paint-order: stroke; stroke: rgb(69, 69, 251); stroke-linejoin: round; stroke-width: 4px;"></rect>
 </svg>
 
-### Kreis
+#### Kreis
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <ellipse style="stroke-width: 4px; fill: none; stroke: rgb(88, 49, 250); stroke-linecap: round; stroke-dasharray: 8, 8;" cx="32" cy="32" rx="16" ry="16"></ellipse>
 </svg>
 
-### Kreis mit einem Text
+#### Kreis mit einem Text
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <ellipse style="stroke-width: 4px; fill: none; stroke: rgb(88, 49, 250);" cx="32" cy="32" rx="16" ry="16"></ellipse>
   <text style="fill: rgb(88, 49, 250); font-family: Arial, sans-serif; font-size: 8px; white-space: pre; text-anchor: middle;" x="32" y="35.2">Text</text>
 </svg>
 
-### Oktogon  
+#### Oktogon  
 <svg fill="#000000" width="16rem" height="16rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   <path d="M21.71,7.57,16.44,2.29A1.05,1.05,0,0,0,15.73,2H8.27a1.05,1.05,0,0,0-.71.29L2.29,7.57a1,1,0,0,0-.29.7v7.46a1,1,0,0,0,.29.7l5.27,5.28a1.05,1.05,0,0,0,.71.29h7.46a1.05,1.05,0,0,0,.71-.29l5.27-5.28a1,1,0,0,0,.29-.7V8.27A1,1,0,0,0,21.71,7.57ZM20,15.31,15.31,20H8.69L4,15.31V8.69L8.69,4h6.62L20,8.69Z" />
 </svg>
