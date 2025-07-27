@@ -7,6 +7,8 @@
 [Vibe testing with Playwright](https://timdeschryver.dev/blog/vibe-testing-with-playwright)  
 [Modern Test Automation with AI(LLM) and Playwright MCP (Model Context Protocol) | by KailashPathak | Medium](https://kailash-pathak.medium.com/modern-test-automation-with-ai-llm-and-playwright-mcp-model-context-protocol-0c311292c7fb)  
 [Generative Automation Testing with Playwright MCP Server | by Andrey Enin | May, 2025 | Medium](https://adequatica.medium.com/generative-automation-testing-with-playwright-mcp-server-45e9b8f6f92a)  
+[adequatica/ui-testing: Testing UI with TypeScript and Playwright](https://github.com/adequatica/ui-testing)  
+[Skn0tt/generate-test-with-copilot](https://github.com/Skn0tt/generate-test-with-copilot)  
 [Next generation autonomous AI agent for end-to-end testing of web & desktop](https://github.com/testdriverai/cli)  
 ## dotnet
 [Komponententests für C# in .NET Core mit „dotnet test“ und xUnit](https://learn.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test)  
