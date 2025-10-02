@@ -1,3 +1,6 @@
+# Spec-Driven Development #
+[Copilot Agent Mode – Konfiguration und Best Practices | DWX Developer World](https://www.developer-world.de/dwx-insights/dwx-spotlight/dw-copilot-agent-mode-konfiguration-und-best-practices?utm_source=DWX_nl&utm_campaign=Copilot_in_eigene_App_für_Endbenutzer_integrieren_01102025&utm_medium=email)  
+[Toolkit to help you get started with Spec-Driven Development](https://github.com/github/spec-kit)  
 # Community #
 [Hugging Face](https://huggingface.co/)  
 # open-source LLMs or SLMs #
