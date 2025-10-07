@@ -40,7 +40,7 @@
 [Onion Architecture in ASP.NET Core](https://code-maze.com/onion-architecture-in-aspnetcore/)  
 [Vertical Slice Architecture in ASP.NET Core](https://code-maze.com/vertical-slice-architecture-aspnet-core/)  
 [Architekturprinzipien](https://learn.microsoft.com/de-de/dotnet/architecture/modern-web-apps-azure/architectural-principles)  
-[Project Template Practical.CleanArchitecture with drawio diagrams](https://github.com/phongnguyend/Practical.CleanArchitecture)  
+[Project Templates (Microservices, Modular Monolith, Monolith) Practical.CleanArchitecture with drawio diagrams](https://github.com/phongnguyend/Practical.CleanArchitecture)  
 ## Modular Architecture
 [Modular Architecture in ASP.NET Core – Building Better Monoliths](https://codewithmukesh.com/blog/modular-architecture-in-aspnet-core/)  
 [Modular Monoliths With ASP.NET Core – Pragmatic Architecture](https://www.thinktecture.com/asp-net-core/modular-monolith/)  
