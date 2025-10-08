@@ -19,6 +19,8 @@
 [N-Layer Architecture In A Multi-Project Solution with Microsoft.Extensions.DependencyInjection](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)  
 ## Development
 [Public APIs](https://github.com/public-apis/public-apis)  
+[.NET-Featureverwaltung](https://learn.microsoft.com/de-de/azure/azure-app-configuration/feature-management-dotnet-reference)  
+[FeatureManagement-Dotnet](https://github.com/microsoft/FeatureManagement-Dotnet)  
 ### Documentation
 [Build your docs with docfx](https://dotnet.github.io/docfx/index.html)  
 [Static site generator for .NET API documentation.](https://github.com/dotnet/docfx)  
@@ -32,6 +34,12 @@
 [The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
 [Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
 [Clean Architecture by Steve Smith (ardalis)](https://github.com/ardalis/cleanarchitecture)  
+[Building Blazor Server Apps with Clean Architecture](https://www.ezzylearning.net/tutorial/building-blazor-server-apps-with-clean-architecture)  
+[Building Blazor Server Apps with Clean Architecture](https://github.com/ezzylearning/BlazorServerCleanArchitecture)  
+[Taming the Chaos: A Developer’s Guide to Pragmatic Clean Architecture in ASP.NET Core](https://arg-software.medium.com/taming-the-chaos-a-developers-guide-to-pragmatic-clean-architecture-in-net-%EF%B8%8F-c0b05de359a7)  
+[A pragmatic Clean Architecture template for scalable, testable, and maintainable software](https://github.com/ARG-Software/Clean-Architecture)  
+[Building ASP.NET Core Apps with Clean Architecture](https://www.ezzylearning.net/tutorial/building-asp-net-core-apps-with-clean-architecture)  
+[Building ASP.NET Core Apps with Clean Architecture - Demo Project for a blog post](https://github.com/ezzylearning/CleanArchitectureDemo)  
 [Rules to Better Clean Architecture](https://ssw.com.au/rules/rules-to-better-clean-architecture/)  
 [CleanArchitecture: Minimum, Middle, Maximum, Ultra](https://github.com/denis-tsv/CleanArchitecture)  
 [Clean Architecture for ASP.NET Core Solution: A Case Study](https://blog.ndepend.com/clean-architecture-for-asp-net-core-solution/)  
