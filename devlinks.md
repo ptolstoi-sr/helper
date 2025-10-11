@@ -1,3 +1,8 @@
+# Development
+[Learn Algorithms & Data Structures](https://the-algorithms.com/)  
+[Share quick reference cheat sheet for developers.](https://github.com/Fechin/reference)  
+[visualising data structures and algorithms through animation](https://visualgo.net/en)  
+[Free for Developers](https://free-for.dev/#/)  
 # Dotnet
 [.NET Blog](https://devblogs.microsoft.com/dotnet/)  
 [Visual Studio Magazine - Expert Solutions for .NET Development](https://visualstudiomagazine.com/Home.aspx)  
@@ -204,6 +209,8 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [Editor.js](https://github.com/codex-team/editor.js)  
 [ysEditor.js](https://github.com/yusufsefasezer/ysEditor.js)  
 [writer.js](https://github.com/alirezakefayati/writer.js)  
+## Debugging
+[All-In-One Remote Debugging Tool](https://www.pagespy.org/)  
 # Mail
 [Modern HTML email (tables no longer required)](https://fullystacked.net/posts/modern-html-email/)  
 [7 Email Design Best Practices for 2023](https://www.sendinblue.com/blog/email-design-best-practices/)  
@@ -229,3 +236,5 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [Bootstrap 5 Admin Template and Feather & FontAwesome Icons with lots of additional goodies.](https://github.com/ajkr195/Avni)  
 [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard)  
 [Argon Dashboard ASP.NET Core](https://github.com/creativetimofficial/argon-dashboard-asp-net)  
+# Administration
+[Self-Hosting Guide.](https://github.com/mikeroyal/Self-Hosting-Guide)  
