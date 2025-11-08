@@ -2,11 +2,18 @@
 ## Verzeichnisse
 	- data
 	- docs
+    	- docs\src
+    	- docs\tests
+    	- docs\prompts
 	- src
 	- tests
 ## Dateien
 - readme.md
 - data\readme.md
 - docs\readme.md
+- docs\requirements.md
+  - docs\src\readme.md
+  - docs\tests\readme.md
+  - docs\prompts\readme.md
 - src\readme.md
 - tests\readme.md

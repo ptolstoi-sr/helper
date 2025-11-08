@@ -1,1 +1,1 @@
-Vorlagen für Einsatz im Visual Studio Community Edition
+# Vorlagen für Einsatz im Visual Studio und Visual Studio COde
