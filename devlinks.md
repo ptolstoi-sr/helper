@@ -1,3 +1,8 @@
+# Development
+[Learn Algorithms & Data Structures](https://the-algorithms.com/)  
+[Share quick reference cheat sheet for developers.](https://github.com/Fechin/reference)  
+[visualising data structures and algorithms through animation](https://visualgo.net/en)  
+[Free for Developers](https://free-for.dev/#/)  
 # Dotnet
 [.NET Blog](https://devblogs.microsoft.com/dotnet/)  
 [Visual Studio Magazine - Expert Solutions for .NET Development](https://visualstudiomagazine.com/Home.aspx)  
@@ -19,6 +24,8 @@
 [N-Layer Architecture In A Multi-Project Solution with Microsoft.Extensions.DependencyInjection](https://makeitnew.io/n-layer-architecture-in-a-multi-project-solution-d72604f0e030)  
 ## Development
 [Public APIs](https://github.com/public-apis/public-apis)  
+[.NET-Featureverwaltung](https://learn.microsoft.com/de-de/azure/azure-app-configuration/feature-management-dotnet-reference)  
+[FeatureManagement-Dotnet](https://github.com/microsoft/FeatureManagement-Dotnet)  
 ### Documentation
 [Build your docs with docfx](https://dotnet.github.io/docfx/index.html)  
 [Static site generator for .NET API documentation.](https://github.com/dotnet/docfx)  
@@ -32,6 +39,12 @@
 [The Clean Code Blog by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)  
 [Awesome Software Clean Architecture](https://awesome-architecture.com/clean-architecture/)  
 [Clean Architecture by Steve Smith (ardalis)](https://github.com/ardalis/cleanarchitecture)  
+[Building Blazor Server Apps with Clean Architecture](https://www.ezzylearning.net/tutorial/building-blazor-server-apps-with-clean-architecture)  
+[Building Blazor Server Apps with Clean Architecture](https://github.com/ezzylearning/BlazorServerCleanArchitecture)  
+[Taming the Chaos: A Developer’s Guide to Pragmatic Clean Architecture in ASP.NET Core](https://arg-software.medium.com/taming-the-chaos-a-developers-guide-to-pragmatic-clean-architecture-in-net-%EF%B8%8F-c0b05de359a7)  
+[A pragmatic Clean Architecture template for scalable, testable, and maintainable software](https://github.com/ARG-Software/Clean-Architecture)  
+[Building ASP.NET Core Apps with Clean Architecture](https://www.ezzylearning.net/tutorial/building-asp-net-core-apps-with-clean-architecture)  
+[Building ASP.NET Core Apps with Clean Architecture - Demo Project for a blog post](https://github.com/ezzylearning/CleanArchitectureDemo)  
 [Rules to Better Clean Architecture](https://ssw.com.au/rules/rules-to-better-clean-architecture/)  
 [CleanArchitecture: Minimum, Middle, Maximum, Ultra](https://github.com/denis-tsv/CleanArchitecture)  
 [Clean Architecture for ASP.NET Core Solution: A Case Study](https://blog.ndepend.com/clean-architecture-for-asp-net-core-solution/)  
@@ -40,7 +53,7 @@
 [Onion Architecture in ASP.NET Core](https://code-maze.com/onion-architecture-in-aspnetcore/)  
 [Vertical Slice Architecture in ASP.NET Core](https://code-maze.com/vertical-slice-architecture-aspnet-core/)  
 [Architekturprinzipien](https://learn.microsoft.com/de-de/dotnet/architecture/modern-web-apps-azure/architectural-principles)  
-[Project Template Practical.CleanArchitecture with drawio diagrams](https://github.com/phongnguyend/Practical.CleanArchitecture)  
+[Project Templates (Microservices, Modular Monolith, Monolith) Practical.CleanArchitecture with drawio diagrams](https://github.com/phongnguyend/Practical.CleanArchitecture)  
 ## Modular Architecture
 [Modular Architecture in ASP.NET Core – Building Better Monoliths](https://codewithmukesh.com/blog/modular-architecture-in-aspnet-core/)  
 [Modular Monoliths With ASP.NET Core – Pragmatic Architecture](https://www.thinktecture.com/asp-net-core/modular-monolith/)  
@@ -196,6 +209,8 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [Editor.js](https://github.com/codex-team/editor.js)  
 [ysEditor.js](https://github.com/yusufsefasezer/ysEditor.js)  
 [writer.js](https://github.com/alirezakefayati/writer.js)  
+## Debugging
+[All-In-One Remote Debugging Tool](https://www.pagespy.org/)  
 # Mail
 [Modern HTML email (tables no longer required)](https://fullystacked.net/posts/modern-html-email/)  
 [7 Email Design Best Practices for 2023](https://www.sendinblue.com/blog/email-design-best-practices/)  
@@ -221,3 +236,5 @@ GRANT ALL ON '<db>'.* TO '<dbuser>'@'%' IDENTIFIED BY '<pwd>'; SHOW GRANTS FOR '
 [Bootstrap 5 Admin Template and Feather & FontAwesome Icons with lots of additional goodies.](https://github.com/ajkr195/Avni)  
 [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard)  
 [Argon Dashboard ASP.NET Core](https://github.com/creativetimofficial/argon-dashboard-asp-net)  
+# Administration
+[Self-Hosting Guide.](https://github.com/mikeroyal/Self-Hosting-Guide)  
