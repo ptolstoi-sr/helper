@@ -6,6 +6,7 @@
 - [Security-Insider – das Online-Magazin zu Ransomware, Phishing, KRITIS, Verschlüsselung, Datenschutz und DSGVO, Patches, Zero Day Exploits und Zero Trust.](https://www.security-insider.de/)
 - [Secure Coding: CWE-1007 – die unsichtbare Gefahr durch visuell ähnliche Zeichen](https://www.heise.de/hintergrund/Secure-Coding-CWE-1007-die-unsichtbare-Gefahr-durch-visuell-aehnliche-Zeichen-10188217.html)
 # Github
+- [Leitfaden, Richtlinien, Dokumente zum Thema sichere Programmierung (Secure Coding)](https://github.com/ptolstoi-owasp/secure-coding)
 - [Community-basierte Sicherheit mit KI: ein Open-Source-Framework für die Sicherheitsforschung](https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/)
 - [CodeQl](https://codeql.github.com/)  
 # Web
