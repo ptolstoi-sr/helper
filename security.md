@@ -9,6 +9,10 @@
 - [Leitfaden, Richtlinien, Dokumente zum Thema sichere Programmierung (Secure Coding)](https://github.com/ptolstoi-owasp/secure-coding)
 - [Community-basierte Sicherheit mit KI: ein Open-Source-Framework für die Sicherheitsforschung](https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/)
 - [CodeQl](https://codeql.github.com/)  
+# Secure Coding
+- [Snyk - Sichere Programmierungspraktiken, die Sie kennen sollten](https://snyk.io/de/articles/secure-coding-practices/)
+- [WIZ - Was ist sicheres Codieren? Überblick und Best Practices](https://www.wiz.io/de-de/academy/application-security/secure-coding-best-practices)
+- [„8.28 Secure coding“ – Neue Controls in der ISO/IEC 27002:2022 – Blogreihe](https://www.datenschutz-notizen.de/8-28-secure-coding-neue-controls-in-der-iso-iec-27002-2022-blogreihe-5137423/)  
 # Web
 - [OWASP Top Ten - Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)  
 - [OWASP Nettacker](https://owasp.org/www-project-nettacker/)  
