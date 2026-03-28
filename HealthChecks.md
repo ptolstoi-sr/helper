@@ -11,6 +11,7 @@ Umfassende Dokumentation zu Health Checks in .NET 6, .NET 8, .NET 9 und .NET 10.
 - [Kubernetes Integration](#kubernetes-integration)
 - [Best Practices](#best-practices)
 - [.NET 10 Neuheiten](#net-10-neuheiten)
+- [Beispiel im Repository](#beispiel-im-repository)
 
 ---
 
@@ -405,6 +406,29 @@ builder.Services.AddHealthChecks()
 ```csharp
 failureStatus: HealthStatus.Degraded // statt Unhealthy
 ```
+
+---
+
+## Beispiel im Repository
+
+Ein vollständiges, lauffähiges Beispiel für die Implementierung von Health Checks in diesem Repository findest du in der [`Program.cs`](./Program.cs) Datei.
+
+Das Beispiel zeigt:
+- ✅ **Liveness Probe** (`/health/live`) - Prüft nur, ob die Anwendung läuft
+- ✅ **Readiness Probe** (`/health/ready`) - Prüft produktionsrelevante Abhängigkeiten mit Tags
+- ✅ **Vollständige Health Checks** (`/healthchecks`) - Alle Checks mit UI Support
+- ✅ **Health Checks UI Dashboard** (`/healthchecks-ui`) - Visuelles Monitoring-Dashboard
+- ✅ **MySQL Datenbank-Checks** - Mit Tags für Kubernetes Probes
+- ✅ **Moderne .NET 8/9/10 Syntax** - Ohne veraltete `UseEndpoints`-Methoden
+
+### Endpoints im Beispiel
+
+| Endpoint | Beschreibung | Verwendung |
+|----------|--------------|------------|
+| `/health/live` | Liveness Probe | Kubernetes Liveness Probe |
+| `/health/ready` | Readiness Probe | Kubernetes Readiness Probe |
+| `/healthchecks` | Vollständige Checks | Manuelles Testing, UI API |
+| `/healthchecks-ui` | Dashboard | Visuelle Überwachung |
 
 ---
 

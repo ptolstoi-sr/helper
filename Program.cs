@@ -1,4 +1,3 @@
-using HealthChecks.ApplicationStatus.DependencyInjection;
 using HealthChecks.UI.Client;
 using Speicher;
 using Speicher.Modulle1;
@@ -66,21 +65,37 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseRouting()
-    .UseEndpoints(endpoints =>
-    {
-        endpoints.MapHealthChecks("/healthchecks", new HealthCheckOptions
-        {
-            Predicate = _ => true,
-            ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-        }).AllowAnonymous();
+// Moderne Health Checks Konfiguration (.NET 8/9/10)
+// Liveness Probe: Nur essentielle Checks (Applikation läuft)
+app.MapHealthChecks("/health/live", new HealthCheckOptions
+{
+    Predicate = _ => false // Keine externen Abhängigkeiten prüfen
+}).AllowAnonymous();
 
-        endpoints.MapHealthChecksUI(setup =>
-        {
-            setup.AddCustomStylesheet(@"wwwroot/css/healthcheckui.css");
-            setup.AsideMenuOpened = false;
-        }).AllowAnonymous();
-    });
+// Readiness Probe: Alle produktionsrelevanten Checks
+app.MapHealthChecks("/health/ready", new HealthCheckOptions
+{
+    Predicate = check => check.Tags.Contains("production"),
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+}).AllowAnonymous();
+
+// Vollständige Health Checks mit UI Support
+app.MapHealthChecks("/healthchecks", new HealthCheckOptions
+{
+    Predicate = _ => true,
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+}).AllowAnonymous();
+
+// Health Checks UI Dashboard
+app.MapHealthChecksUI(setup =>
+{
+    setup.SetEvaluationTimeInSeconds(15);
+    setup.MaximumHistoryEntriesPerEndpoint(60);
+    setup.SetApiMaxActiveRequests(1);
+    setup.AddHealthCheckEndpoint("Portal Health", "/healthchecks");
+    setup.AddCustomStylesheet(@"wwwroot/css/healthcheckui.css");
+    setup.AsideMenuOpened = false;
+}).AllowAnonymous();
 
 app.MapControllerRoute(
     name: "areas",
@@ -130,22 +145,22 @@ static void InitialisierenFunktionfähigkeitPrüfung(WebApplicationBuilder build
 {
     var dllname = typeof(Program).Assembly.GetName().Name ?? "Applikation";
 
+    // Health Checks UI Konfiguration
     builder.Services
-        .AddHealthChecksUI(options =>
+        .AddHealthChecksUI(setup =>
         {
-            options.SetEvaluationTimeInSeconds(15);
-            options.MaximumHistoryEntriesPerEndpoint(60);
-            options.SetApiMaxActiveRequests(1);
-            options.AddHealthCheckEndpoint(dllname, "/healthchecks");
+            setup.SetEvaluationTimeInSeconds(15);
+            setup.MaximumHistoryEntriesPerEndpoint(60);
+            setup.SetApiMaxActiveRequests(1);
+            setup.AddHealthCheckEndpoint(dllname, "/healthchecks");
         })
         .AddInMemoryStorage();
 
+    // Health Checks Registrierung mit Tags für Kubernetes Probes
     builder.Services
         .AddHealthChecks()
-        .AddApplicationStatus("Applikationsstatus")
-        .AddMySql(connectionString, "Datenbank Portal")
-        .AddMySql(connectionStringModulle1, "Datenbank Modulle1")
-    ;
+        .AddMySql(connectionString, name: "Datenbank Portal", failureStatus: Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus.Unhealthy, tags: new[] { "production", "db" })
+        .AddMySql(connectionStringModulle1, name: "Datenbank Modulle1", failureStatus: Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus.Unhealthy, tags: new[] { "production", "db" });
 }
 
 static void KerberosAuthentifizierung(WebApplicationBuilder builder)
