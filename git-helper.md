@@ -1,121 +1,170 @@
-# Git - Leitfaden für VS Code-Alltag. 
+# Git & GitHub Workflow in VS Code
 
-Hier ist ein kompakter und praxisorientierter Leitfaden mit den wichtigsten Git-Befehlen für deinen VS Code-Alltag. 
+Dieser Leitfaden deckt die typischen Entwickler-Aufgaben direkt aus VS Code und dem integrierten Terminal ab, inklusive der Nutzung der GitHub CLI (`gh`).
 
 ---
 
-### 1. Neues lokales Projekt in ein leeres GitHub-Repo pushen
+## 1. Neues Projekt in ein leeres GitHub-Repo pushen
 
-Du hast einen neuen Ordner in VS Code geöffnet, Code geschrieben und ein leeres Repository auf GitHub erstellt.
+Du hast einen neuen Ordner in VS Code geöffnet, Code geschrieben und ein leeres Repository auf GitHub erstellt. 
 
-**Tipp zur `.gitignore`:** Bevor du Git initialisierst, erstelle eine Datei namens `.gitignore` im Hauptverzeichnis. Du kannst dir fertige Templates (z.B. für Node, Python, Java) auf [gitignore.io](https://gitignore.io) generieren lassen oder in VS Code die Erweiterung "gitignore" nutzen.
-
-Öffne das integrierte Terminal in VS Code (`Ctrl + ~` bzw. `Strg + Ö`) und gib Folgendes ein:
+**Wichtig vorab:** Erstelle eine `.gitignore`-Datei im Hauptverzeichnis (Nutze dafür z.B. [gitignore.io](https://gitignore.io) oder die VS Code Erweiterung "gitignore"), damit keine unnötigen Dateien wie `node_modules` hochgeladen werden.
 
 ```bash
-# 1. Git im aktuellen Verzeichnis initialisieren
+# Git im aktuellen Verzeichnis initialisieren
 git init
 
-# 2. Alle Dateien (inklusive .gitignore) zum Staging hinzufügen
+# Alle Dateien (inklusive .gitignore) zum Staging hinzufügen
 git add .
 
-# 3. Den ersten Commit erstellen
+# Den ersten Commit erstellen
 git commit -m "Initial commit"
 
-# 4. Den Standard-Branch auf "main" umbenennen (früher oft "master")
+# Den Standard-Branch auf "main" benennen
 git branch -M main
 
-# 5. Das lokale Repo mit dem leeren GitHub-Repo verknüpfen
-# (Die URL bekommst du auf GitHub, wenn du das Repo erstellst)
+# Das lokale Repo mit dem leeren GitHub-Repo verknüpfen (URL anpassen)
 git remote add origin https://github.com/DeinName/DeinRepo.git
 
-# 6. Den Code hochladen und den Branch verknüpfen (-u)
+# Den Code hochladen und den Branch verknüpfen
 git push -u origin main
 ```
 
 ---
 
-### 2. Ein bestehendes GitHub-Repo in VS Code klonen
+## 2. Bestehendes GitHub-Repo klonen
 
 Du möchtest an einem Projekt arbeiten, das bereits auf GitHub existiert.
 
 ```bash
-# 1. Repo ins aktuelle Verzeichnis klonen
+# Repo ins aktuelle Verzeichnis klonen
 git clone https://github.com/DeinName/DeinRepo.git
 
-# 2. In den neuen Ordner wechseln
+# In den neuen Ordner wechseln
 cd DeinRepo
 
-# Tipp: Öffne den Ordner direkt im selben VS Code Fenster
+# Den Ordner direkt im selben VS Code Fenster öffnen
 code . -r 
 ```
 
 ---
 
-### 3. An einem neuen Feature arbeiten (Branching)
+## 3. Feature-Branch erstellen
 
-Arbeite nie direkt auf dem `main`-Branch. Erstelle für jede Aufgabe einen eigenen Branch.
+Arbeite nie direkt auf dem `main`-Branch. Erstelle für jede neue Aufgabe einen eigenen Branch.
 
 ```bash
-# 1. Neuen Branch erstellen und direkt dorthin wechseln
+# Neuen Branch erstellen und direkt dorthin wechseln
 git switch -c feature/mein-neues-feature
-# (Alternative: git checkout -b feature/mein-neues-feature)
 
-# ... jetzt machst du deine Änderungen im VS Code ...
+# ... Code in VS Code bearbeiten und speichern ...
 
-# 2. Geänderte Dateien hinzufügen
+# Geänderte Dateien hinzufügen
 git add .
 
-# 3. Änderungen committen
+# Änderungen committen
 git commit -m "Füge neues Feature XY hinzu"
 
-# 4. Den neuen Branch das erste Mal auf GitHub pushen
+# Den neuen Branch auf GitHub pushen
 git push -u origin feature/mein-neues-feature
 ```
 
 ---
 
-### 4. Pull Request (PR) erstellen und mergen
+## 4. Pull Request (PR) erstellen und verwalten
 
-Git selbst kennt keine "Pull Requests", das ist ein Konzept von Plattformen wie GitHub. 
-
-**Der normale Weg (im Browser):**
-1. Gehe auf die GitHub-Seite deines Repositories.
-2. GitHub erkennt meist automatisch deinen neuen Branch und zeigt einen grünen Button **"Compare & pull request"**. Klicke darauf.
-3. Fülle Titel und Beschreibung aus und klicke auf **"Create pull request"**.
-4. Nach dem Review klickst du auf **"Merge pull request"**.
-
-**Der Pro-Weg (direkt in VS Code):**
-Wenn du die **GitHub CLI (`gh`)** installiert hast, kannst du das alles direkt im VS Code Terminal machen:
+Mit der installierten GitHub CLI (`gh`) kannst du PRs direkt im VS Code Terminal abwickeln. (Voraussetzung: Einmaliger Login mit `gh auth login`).
 
 ```bash
-# PR erstellen
-gh pr create --title "Mein neues Feature" --body "Beschreibung der Änderungen"
+# PR interaktiv im Terminal erstellen
+gh pr create
 
-# PR mergen (wenn alle Tests grün sind und er freigegeben ist)
+# Status der automatischen Tests und Reviews prüfen
+gh pr status
+
+# PR mergen (wenn alles freigegeben ist)
 gh pr merge
+```
+*Tipp:* Nutze `gh pr create --web`, falls du den PR lieber im Browser fertigstellen möchtest (z.B. für Screenshots in der Beschreibung).
+
+---
+
+## 5. Merge-Konflikte auflösen
+
+Ein Konflikt entsteht, wenn Git Änderungen nicht automatisch zusammenführen kann (z.B. nach einem `git pull` oder beim Mergen). 
+
+**Schritt 1: Dateien in VS Code identifizieren**
+Wechsle in die Ansicht **"Quellverwaltung"** (`Ctrl + Shift + G`). Konflikt-Dateien sind rot mit einem "C" markiert. Öffne diese Dateien.
+
+**Schritt 2: Konflikt im Editor lösen**
+VS Code markiert die Problemstellen farbig. Du siehst deine lokalen Änderungen (`Current Change`) und die hereinkommenden Änderungen (`Incoming Change`).
+Klicke auf einen der CodeLens-Buttons direkt über dem Konflikt:
+* **Accept Current Change:** Behält deine Version.
+* **Accept Incoming Change:** Behält die reinkommende Version.
+* **Accept Both Changes:** Behält beide Versionen.
+
+**Schritt 3: Konflikt-Lösung bestätigen**
+Speichere die reparierte Datei (`Ctrl + S`).
+Füge die Datei zum Staging hinzu und schließe den Merge mit einem Commit ab:
+
+```bash
+# Datei stagen
+git add konfliktdatei.js
+
+# Merge abschließen (Git generiert oft automatisch eine passende Nachricht)
+git commit -m "Löse Merge-Konflikte"
 ```
 
 ---
 
-### 5. Aufräumen (Branches löschen)
+## 6. Aufräumen (Branches löschen)
 
-Nachdem der PR gemergt wurde, brauchst du den Feature-Branch nicht mehr. Auf GitHub gibt es oft einen Button "Delete branch", aber lokal musst du auch aufräumen.
+Nachdem dein PR erfolgreich gemergt wurde, sollte der lokale Feature-Branch gelöscht werden, um Ordnung zu halten.
 
 ```bash
-# 1. Zurück auf den main-Branch wechseln
+# Zurück auf den main-Branch wechseln
 git switch main
 
-# 2. Den lokalen main-Branch auf den neuesten Stand bringen (holt den Merge!)
+# Den lokalen main-Branch auf den neuesten Stand bringen
 git pull
 
-# 3. Den lokalen Feature-Branch löschen
+# Den lokalen Feature-Branch löschen
 git branch -d feature/mein-neues-feature
 
-# 4. Falls du den Remote-Branch NICHT über den GitHub-Browser gelöscht hast:
+# Den Remote-Branch löschen (falls nicht schon über GitHub passiert)
 git push origin --delete feature/mein-neues-feature
 ```
 
 ---
 
-**Ein kleiner Tipp für VS Code:** Viele dieser Schritte kannst du auch ohne Terminal über das Icon **"Quellverwaltung" (Source Control)** in der linken Seitenleiste von VS Code (oder `Ctrl + Shift + G`) erledigen. Dort kannst du Dateien per Klick stagen (`+`), Commit-Nachrichten eingeben und Branches erstellen.
+## 7. Mehrere GitHub-Accounts & Profile verwalten
+
+Wenn du private und geschäftliche Repositories auf demselben Rechner nutzt, trennst du sie am besten so:
+
+### Account-Wechsel im Terminal (GitHub CLI)
+Füge deinen zweiten Account mit `gh auth login` hinzu. Danach kannst du jederzeit wechseln:
+
+```bash
+# Interaktiv zwischen Accounts wechseln
+gh auth switch
+
+# Git anweisen, die Anmeldedaten der GitHub CLI zu nutzen (einmalig ausführen)
+gh auth setup-git
+```
+
+### Automatische Git-Profile nach Ordner (`includeIf`)
+Damit deine Commits immer die richtige E-Mail-Adresse haben, kannst du Git anweisen, je nach Ordnerpfad ein anderes Profil zu laden.
+
+1. Erstelle eine Datei für das Arbeits-Profil (z.B. `~/.gitconfig-arbeit`) mit folgendem Inhalt:
+   ```ini
+   [user]
+       name = Dein Arbeitsname
+       email = dev@deine-firma.de
+   ```
+
+2. Öffne deine globale Git-Konfiguration (`~/.gitconfig`) und füge ganz unten diesen Block hinzu:
+   ```ini
+   [includeIf "gitdir:~/Dev/Arbeit/"]
+       path = ~/.gitconfig-arbeit
+   ```
+*(Wichtig: Der abschließende Schrägstrich `/` im Pfad ist zwingend erforderlich. Sobald du nun in `~/Dev/Arbeit/` arbeitest, nutzt Git automatisch deine geschäftliche E-Mail).*
