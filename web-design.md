@@ -1,3 +1,16 @@
+## UI Libraries
+Moderne, kostenlose UI-Bibliotheken und Component-Sets für schnelle und ansprechende Webentwicklung:
+
+- [**shadcn/ui**](https://ui.shadcn.com/) – Nicht eine Component-Library im klassischen Sinne, sondern eine Sammlung von wiederverwendbaren Komponenten, die mit Tailwind CSS und Radix UI gebaut werden. Vollständig anpassbar und direkt in dein Projekt kopierbar.
+- [**DaisyUI**](https://daisyui.com/) – Eine Tailwind-CSS-Plugin-basierte Component-Library mit vielen vorgefertigten, responsiven Komponenten und Themes. Einfach zu nutzen und sehr flexibel.
+- [**FlyonUI**](https://flyonui.com/) – Eine moderne, auf Tailwind CSS basierende UI-Bibliothek mit Fokus auf schöne Designs und einfache Integration. Bietet viele vorgefertigte Komponenten für Dashboards und Landing Pages.
+- [**Material Tailwind**](https://www.material-tailwind.com/) – Kombiniert Material Design mit der Flexibilität von Tailwind CSS. Kostenlos und Open Source, mit vielen Komponenten und Beispielen.
+- [**Flowbite**](https://flowbite.com/) – Eine weitere beliebte Tailwind-CSS-Bibliothek mit einer großen Auswahl an Komponenten, Templates und einem interaktiven Builder.
+- [**HyperUI**](https://www.hyperui.dev/) – Kostenlose Open-Source-Tailwind-Komponenten für Marketingseiten und E-Commerce-Anwendungen.
+- [**Tailwind UI**](https://tailwindui.com/) – Offizielle Premium-Komponenten von den Machern von Tailwind CSS (teilweise kostenlos, größtenteils kostenpflichtig).
+- [**Preline UI**](https://preline.co/) – Ein Set von responsiven Tailwind-CSS-Komponenten mit modernem Design.
+- [**Cruip**](https://cruip.com/) – Kostenlose und Premium Tailwind-Templates und Components für Startups und Landing Pages.
+
 ## CSS
 ### Online Editor
 - [CSS Generators A Polygon shape with clip-path](https://css-generators.com/polygon-shape/)  

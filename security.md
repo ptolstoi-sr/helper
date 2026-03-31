@@ -1,23 +1,36 @@
-# Allgemein
-- [OWASP Developer Guide](https://owasp.org/www-project-developer-guide/release/)
-- [CVS : Security Vulnerabilities, CVEs](https://www.cvedetails.com/vulnerability-list/vendor_id-442/CVS.html)
-- [Bundesamt für Sicherheit in der Informationstechnik => Webanwendungen](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Webanwendungen/webanwendungen_node.html)
-- [IT-Grundschutz-Kompendium (Edition 2023)](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
-- [Security-Insider – das Online-Magazin zu Ransomware, Phishing, KRITIS, Verschlüsselung, Datenschutz und DSGVO, Patches, Zero Day Exploits und Zero Trust.](https://www.security-insider.de/)
-- [Secure Coding: CWE-1007 – die unsichtbare Gefahr durch visuell ähnliche Zeichen](https://www.heise.de/hintergrund/Secure-Coding-CWE-1007-die-unsichtbare-Gefahr-durch-visuell-aehnliche-Zeichen-10188217.html)
-# Web
-- [OWASP Top Ten - Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten/)  
-- [OWASP Nettacker](https://owasp.org/www-project-nettacker/)  
-- [Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management](https://github.com/OWASP/Nettacker#)  
-- [Web-Security: Mit Content Security Policy gegen Cross-Site Scripting, Teil 1](https://www.heise.de/hintergrund/Web-Security-Mit-Content-Security-Policy-gegen-Cross-Site-Scripting-Teil-1-9998046.html)
-- [Web-Security: Mit Content Security Policy gegen Cross-Site Scripting, Teil 2](https://www.heise.de/hintergrund/Web-Security-Mit-Content-Security-Policy-gegen-Cross-Site-Scripting-Teil-2-10175246.html)
-# .NET Core
-- [Sicherheitsaspekte für ASP.NET Core](https://learn.microsoft.com/de-de/aspnet/core/security/?view=aspnetcore-8.0)  
-- [DotNet Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html)
-- [How to secure legacy ASP.NET MVC against Cross-Site (CSRF) Attacks](https://www.red-gate.com/simple-talk/development/web/how-to-secure-legacy-asp-net-mvc-against-csrf-attacks/)  
-- [A Comprehensive Guide to Secure Coding in C#](https://www.c-sharpcorner.com/article/a-comprehensive-guide-to-secure-coding-in-c-sharp/)
-  - [Secure-Coding-CSharp-Guide](https://github.com/ziggyrafiq/Secure-Coding-CSharp-Guide)  
-# Pentest
-- [A collection of awesome penetration testing resources, tools and other shiny things](https://github.com/enaqx/awesome-pentest)
-- [Collection of malware source code for a variety of platforms in an array of different programming languages.](https://github.com/vxunderground/MalwareSourceCode)
-- [best tool for finding SQLi,CRLF,XSS,LFi,OpenRedirect](https://github.com/coffinxp/loxs)
+# 🛡️ Security Policy (Sicherheitsrichtlinie)
+
+Die Sicherheit dieses Projekts und seiner Nutzer hat für uns höchste Priorität. Wenn Du eine Schwachstelle gefunden hast, bitten wir Dich, diese **nicht** als öffentliches Issue zu melden. Bitte nutze stattdessen den unten beschriebenen Prozess für eine verantwortungsvolle Offenlegung (Responsible Disclosure).
+
+## Unterstützte Versionen
+
+Bitte überprüfe, ob die von Dir untersuchte Version noch aktiv Sicherheitsupdates erhält:
+
+| Version | Sicherheitsupdates |
+| ------- | ------------------ |
+| 1.0.x   | ✅ Ja              |
+| < 1.0   | ❌ Nein            |
+
+## Eine Schwachstelle melden (Reporting a Vulnerability)
+
+Wenn Du ein potenzielles Sicherheitsproblem in diesem Repository entdeckst, melde es bitte direkt per E-Mail an:
+📧 **[security@beispiel.de]**
+
+Um uns die Analyse zu erleichtern, füge Deiner Nachricht bitte folgende Informationen bei:
+1. **Art der Schwachstelle** (z. B. XSS, SQLi, CSRF, Insecure Design).
+2. **Schritte zur Reproduktion:** Eine genaue Anleitung, ein Proof of Concept (PoC) Code-Snippet oder Screenshots.
+3. **Mögliche Auswirkungen:** Was kann ein Angreifer mit dieser Lücke anstellen?
+
+### Unser Versprechen an Dich
+* **Bestätigung:** Wir bestätigen den Eingang Deiner Meldung in der Regel innerhalb von 48 Stunden.
+* **Transparenz:** Wir halten Dich über die Analyse und den Fortschritt des Patches auf dem Laufenden.
+* **Behebung:** Wir bemühen uns, validierte Schwachstellen so schnell wie möglich zu beheben und ein sicheres Release zu veröffentlichen.
+* **Anerkennung:** Mit Deinem Einverständnis erwähnen wir Dich (oder Deinen Alias) sehr gerne dankend in den Release Notes (CVE / Security Advisory) für Deine wertvolle Hilfe!
+
+Vielen Dank, dass Du dabei hilfst, dieses Projekt und das Web für alle ein Stück sicherer zu machen!
+
+---
+
+## Zusätzliche Ressourcen
+
+Für allgemeine Fragen zum Thema Secure Coding und Sicherheit empfehlen wir einen Blick in unsere [Secure Coding Guidelines](secure-coding.md).
